@@ -54,7 +54,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 26,
+    "uniqCompNum": 30,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png"
   },
@@ -2935,158 +2935,162 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = \"color\")": {
+            "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            "& when (@bg-type = \"image\")": {
+            "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "& when (@flexDirection)": {
-              ".row": {
-                "-webkit-flex-direction": "row-reverse",
-                "flex-direction": "row-reverse"
-              }
+            ".mbr-section-subtitle": {
+              "color": "#b37769"
             },
-            ".row": {
-              "margin": "0"
+            ".container-table": {
+              "margin": "0 auto"
             },
-            ".container-fluid": {
+            ".scroll": {
+              "overflow-x": "auto",
               "padding": "0"
             },
-            "p": {
-              "line-height": "1.6"
-            },
-            ".img": {
-              "padding": "0",
-              "width": "100%",
-              "overflow": "hidden",
-              "max-height": "940px",
-              ".big-img": {
-                "width": "100%",
-                "min-height": "100%",
-                "object-fit": "cover",
-                "object-position": "center"
+            ".dataTables_wrapper": {
+              "display": "block",
+              ".search": {
+                "margin-bottom": ".5rem"
+              },
+              ".table": {
+                "overflow-x": "auto"
               }
             },
-            ".rev": {
-              "margin": "0",
-              "color": "#000000",
-              "text-align": "left"
-            },
-            ".content": {
-              "display": "flex",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "padding-top": "3rem",
-              "padding-bottom": "3rem",
-              "padding-left": "10rem",
-              "padding-right": "10rem"
-            },
-            ".mbr-section-title": {
-              "text-align": "left"
-            },
-            ".card": {
-              "margin-bottom": "1.5rem"
-            },
-            ".card-wrapper": {
-              "width": "100%",
-              "background": "@cardColor",
-              "color": "#444444",
-              "padding": "0",
-              "display": "flex",
-              "-webkit-flex-direction": "row",
-              "flex-direction": "row"
-            },
-            ".line-wrap": {
-              "display": "inline-block",
-              "width": "100%"
-            },
-            ".line": {
-              "display": "inline-block",
-              "width": "80px",
-              "height": "4px",
-              "background-color": "@lineColor",
-              "margin-top": "0.5rem",
-              "margin-bottom": "3rem"
-            },
-            ".mbr-iconfont": {
-              "font-size": "1rem"
-            },
-            ".ico-line-wrap": {
-              "display": "flex",
-              "-webkit-justify-content": "space-between",
-              "justify-content": "space-between"
-            },
-            ".ico-line": {
-              "display": "flex",
-              "-webkit-justify-content": "space-between",
-              "justify-content": "space-between",
-              "-webkit-align-items": "center",
-              "align-items": "center"
-            },
-            ".card-title": {
-              "color": "#0087ab",
-              "text-align": "left"
-            },
-            ".card-img": {
-              "margin": "auto",
-              "border-radius": "0",
-              "width": "155px"
-            },
-            ".card-box": {
-              "padding": "1rem 1rem",
-              "width": "100%",
-              "-webkit-align-self": "center",
-              "align-self": "center"
-            },
-            ".mbr-section-title, .line-wrap": {
-              "text-align": "left",
-              "color": "#ffffff"
-            },
-            ".card-box, .mbr-section-btn": {
-              "text-align": "left",
-              "color": "#000000"
-            },
-            ".text, .mbr-section-btn": {
-              "text-align": "left",
-              "color": "#ffffff"
-            },
-            "@media (max-width: 1400px)": {
-              ".content": {
-                "padding-left": "7rem",
-                "padding-right": "7rem"
+            "table": {
+              "width": "100% !important",
+              "margin-top": "6px",
+              "border": "1px solid @tbColor",
+              "margin-bottom": "0",
+              "th": {
+                "border-top": "none",
+                "transition": "all .2s",
+                "border-bottom": "none",
+                "&:hover": {
+                  "background": "@tbColor",
+                  "color": "contrast(@tbColor)"
+                }
+              },
+              "td": {
+                "border-top": "1px solid @tbColor"
+              },
+              "&.table": {
+                "& when (@tbBackground)": {
+                  "background": "@tbBgColor"
+                }
               }
             },
-            "@media (max-width: 1200px)": {
-              ".content": {
-                "padding-left": "4rem",
-                "padding-right": "4rem"
+            ".dataTables_filter": {
+              "text-align": "right",
+              "margin-bottom": ".5rem",
+              "label": {
+                "display": "inline",
+                "white-space": "normal !important"
+              },
+              "input": {
+                "display": "inline",
+                "width": "auto",
+                "margin-left": ".5rem",
+                "border-radius": "100px",
+                "padding-left": "1rem"
               }
+            },
+            ".dataTables_info": {
+              "padding-bottom": "1rem",
+              "padding-top": "1rem",
+              "white-space": "normal !important"
             },
             "@media (max-width: 992px)": {
-              ".big-img": {
-                "width": "100%"
+              ".dataTables_filter": {
+                "text-align": "center"
               }
             },
-            "@media (max-width: 576px)": {
-              ".content": {
-                "padding": "3rem"
-              },
-              ".card-wrapper": {
-                "-webkit-flex-direction": "column",
-                "flex-direction": "column"
-              },
-              ".card-img": {
-                "width": "100%"
+            "@media (max-width: 350px)": {
+              ".dataTables_filter": {
+                "text-align": "center",
+                "input": {
+                  "width": "100% !important",
+                  "margin-left": "0 !important"
+                }
+              }
+            },
+            ".body-item": {
+              "text-align": "center",
+              "color": "#232323"
+            },
+            ".head-item": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "table1",
+          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"6\">\n    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#5da2b5\">\n    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\" checked>\n    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\">\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"></h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".searchInfo\">Search:</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">星期一</th>\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">星期二<br></th>\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">星期三</th>\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      星期四</th>\n              <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      星期五</th></tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">7:30~8:50\n<br>李雅玲\n<br>基礎瑜伽</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">7:30~8:50\n<br>陳積善\n<br>修復瑜伽</td>\n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">7:30~8:50\n<br>郭秀慧<br>和緩瑜伽</td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">9:30~11:30\n<br>林春蘭\n<br>長青養生</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">10:00~11:30 \n<br>張碩芳 \n<br>經絡養生修護瑜伽</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">9:30~11:30\n<br>林春蘭\n<br>長青養生</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">09:30~11:30\n<br>林春蘭\n<br>長青養生</td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">12:10~13:30\n<br>駱玫樺&nbsp;<br>舒活瑜伽</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">12:10~13:30\n<br>陳文心\n<br>肌力延展</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">12:10~13:30\n<br>邱淑芬\n<br>覺知瑜伽</td>\n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">12:10~13:30\n<br>陳積善\n<br>修復瑜伽</td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">14:30~16:00\n<br>吳奇偉\n<br>養生瑜伽</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">15:00~16:30\n<br>張碩芳&nbsp;<br>經絡養生修護瑜伽</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">14:00~15:30\n<br>吳奇偉&nbsp;<br>正能量瑜伽</td>\n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td></tr>\n            <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">17:30~18:50\n<br>郭秀慧\n<br>陰陽流動瑜伽</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td></tr><tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">19:00~20:30\n<br>許美珍\n<br>靈性瑜伽</td>\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>\n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td></tr></tbody>\n          </table>\n        </div>\n        <div class=\"container table-info-container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Showing</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">entries</span>\n                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(filtered from</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> total entries)</span>\n              </div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
+          "_anchor": "table1-s",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s3ziSpl6z5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "content12",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
               }
             }
           },
-          "_name": "features3",
-          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"11\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\">\n        <input type=\"checkbox\" title=\"Date\" name=\"showDate\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Line\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Cards\" name=\"cardColor\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#0a1c44\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid align-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"img col-lg-5 col-md-12\">\n                <img class=\"big-img\" src=\"@PROJECT_PATH@/assets/images/a3-20200527-1124x1069.jpg\" title alt>\n            </div>\n\n\n            <div class=\"mbr-white col-md-12 col-lg-7 content\">\n\n                <h2 class=\"mbr-section-title pb-2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .line-wrap\">\n                    健康瑜伽系列課程\n                </h2>\n                <div class=\"line-wrap\" mbr-if=\"showTitle && showLine\">\n                    <div class=\"line\"></div>\n                </div>\n                <p class=\"mbr-text mbr-fonts-style pb-4 text\" mbr-theme-style=\"display-5\" data-app-selector=\".text, .mbr-section-btn\" mbr-if=\"showText\">１２堂 / 2800元\n<br>２４堂 / 4800元\n<br>４８堂 / 8800元\n<br>１年內不限次數 / 16000元\n<br>長青養生 / 12堂 / 1200元(55歲以上)\n<br>自由選課、隨選隨上</p>\n\n                <div class=\"card\">    \n                    <div class=\"card-wrapper\" mbr-if=\"cardsAmount > 0\">\n                        <div class=\"card-img\">\n                            <img src=\"../_images/img/01.jpg\" title>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title mbr-fonts-style pb-1 mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title\" mbr-if=\"showCardTitle\">Digital Marketing Course</h4>\n                            <p class=\"mbr-text mbr-fonts-style mbr-normal\" mbr-theme-style=\"display-4\" data-app-selector=\".card-box, .mbr-section-btn\" mbr-if=\"showName\">Jane Willow</p>\n                            <div class=\"ico-line-wrap\">\n                                <div class=\"ico-line\">\n                                    <h3 class=\"rev mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".rev\" mbr-if=\"showDate\">June 13, 2018</h3>\n                                </div>\n                                <div class=\"ico-line\" mbr-if=\"showIcons\">\n                                    <div mbr-icon class=\"px-1 pl-3 mbr-iconfont mbr-iconfont-social mbri-timer\" style=\"color: rgb(10, 28, 68);\"></div>\n                                    <div mbr-icon class=\"px-1 pl-3 mbr-iconfont mbr-iconfont-social mbri-star\" style=\"color: rgb(10, 28, 68);\"></div>\n                                    <div mbr-icon class=\"px-1 pl-3 mbr-iconfont mbr-iconfont-social mbri-desktop\" style=\"color: rgb(10, 28, 68);\"></div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\">    \n                    <div class=\"card-wrapper\" mbr-if=\"cardsAmount > 1\">\n                        <div class=\"card-img\">\n                            <img src=\"../_images/img/02.jpg\" title>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title mbr-fonts-style pb-1 mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title\" mbr-if=\"showCardTitle\">Graphic Design Course</h4>\n                            <p class=\"mbr-text mbr-fonts-style mbr-normal\" mbr-theme-style=\"display-4\" data-app-selector=\".card-box, .mbr-section-btn\" mbr-if=\"showName\">Stiven Oswald</p>\n                            <div class=\"ico-line-wrap\">\n                                <div class=\"ico-line\">\n                                    <h3 class=\"rev mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".rev\" mbr-if=\"showDate\">June 17, 2018</h3>\n                                </div>\n                                <div class=\"ico-line\" mbr-if=\"showIcons\">\n                                    <div mbr-icon class=\"px-1 pl-3 mbr-iconfont mbr-iconfont-social mbri-change-style\" style=\"color: rgb(10, 28, 68);\"></div>\n                                    <div mbr-icon class=\"px-1 pl-3 mbr-iconfont mbr-iconfont-social mbri-star\" style=\"color: rgb(10, 28, 68);\"></div>\n                                    <div mbr-icon class=\"px-1 pl-3 mbr-iconfont mbr-iconfont-social mbri-tablet\" style=\"color: rgb(10, 28, 68);\"></div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\">    \n                    <div class=\"card-wrapper\" mbr-if=\"cardsAmount > 2\">\n                        <div class=\"card-img\">\n                            <img src=\"../_images/img/03.jpg\" title>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title mbr-fonts-style pb-1 mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title\" mbr-if=\"showCardTitle\">Financial Analyst Course</h4>\n                            <p class=\"mbr-text mbr-fonts-style mbr-normal\" mbr-theme-style=\"display-4\" data-app-selector=\".card-box, .mbr-section-btn\" mbr-if=\"showName\">Andrew Clarkson</p>\n                            <div class=\"ico-line-wrap\">\n                                <div class=\"ico-line\">\n                                    <h3 class=\"rev mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".rev\" mbr-if=\"showDate\">June 24, 2018</h3>\n                                </div>\n                                <div class=\"ico-line\" mbr-if=\"showIcons\">\n                                    <div mbr-icon class=\"px-1 pl-3 mbr-iconfont mbr-iconfont-social mbri-clock\" style=\"color: rgb(10, 28, 68);\"></div>\n                                    <div mbr-icon class=\"px-1 pl-3 mbr-iconfont mbr-iconfont-social mbri-star\" style=\"color: rgb(10, 28, 68);\"></div>\n                                    <div mbr-icon class=\"px-1 pl-3 mbr-iconfont mbr-iconfont-social mbri-desktop\" style=\"color: rgb(10, 28, 68);\"></div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"mbr-section-btn align-left\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                        View All Courses</a>\n                </div>\n            </div>\n\n\n\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "s3zasTiXwE",
-          "_anchor": "features3-p",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked=\"\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked=\"\">\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked=\"\" condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected=\"\">Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\">\n                <ul>\n                    <li>課程內容：<br>純體位法的上課內容，每堂課80分鐘。安排各具特色的老師上課，讓您可以有更多的課程選擇。</li><li>上課時間彈性：<br>任何健康瑜伽課程，您都可以隨選隨上。不限制只能上某個時段的課程，也不限一星期上課的次數。</li><li>適合對象：適合純粹想要運動健身的朋友上課。</li><li>多元付費方式：<br>多種付費方式，您不須負擔龐大年費而擔心上不完。即使報名C、D級的課程也有續報的優惠折扣。<br>A級：12堂／2800元／3個月上完<br>B級：24堂／4800元／限6個月內上完<br>C級：48堂／8800元／限1年內，續報可享9折優待 <br>D級：1年內不限次數／16000元／限1年內，續報第一次9折，第二次8折</li><li>上課攜帶物品：\n<br>請穿著舒適運動服裝。本會有公用的瑜伽墊，但為了個人的衛生，請您自行攜帶個人使用的鋪巾。</li><li>報到繳費：\n<br>第一次上課，請提前10分鐘至櫃台辦理報到及繳費手續。</li><li>每日課程時間表：</li></ul><ul>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content12-t",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s3zjgtIbR8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
