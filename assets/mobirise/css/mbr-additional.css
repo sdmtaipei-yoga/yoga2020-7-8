@@ -2450,6 +2450,75 @@ section.lazy-placeholder:after {
 .cid-s3vbFQI47j H2 {
   color: #ffffff;
 }
+.cid-s3zHmNSjgA {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-s3zHmNSjgA .card-icon {
+  font-size: 56px;
+  color: #ed4266;
+  transition: color 0.3s;
+}
+.cid-s3zHmNSjgA .card-title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.cid-s3zHmNSjgA p {
+  font-weight: 400;
+}
+.cid-s3zHmNSjgA .link-ico {
+  font-size: 0.8rem;
+  color: #36404c;
+  border: 2px solid #36404c;
+  border-radius: 100%;
+  padding: 0.5rem 0;
+  font-weight: 900;
+  padding-left: 9px;
+  padding-right: 7px;
+  transition: all 0.3s;
+}
+.cid-s3zHmNSjgA .link-ico:hover {
+  background-color: #ed4266;
+  border-color: #ed4266;
+  color: white;
+}
+.cid-s3zHmNSjgA .line {
+  width: 35px;
+  height: 3px;
+  display: inline-block;
+  background: #ed4266;
+  margin-bottom: 1.5rem;
+  transition: background 0.3s;
+}
+.cid-s3zHmNSjgA .card-wrapper {
+  padding: 2rem;
+  transition: background 0.3s;
+  background: #ffffff;
+}
+.cid-s3zHmNSjgA .card-wrapper:hover .link-ico {
+  background-color: #ed4266;
+  border-color: #ed4266;
+  color: white;
+}
+.cid-s3zHmNSjgA .card-wrapper:hover .card-title a {
+  color: #0a1c44 !important;
+}
+.cid-s3zHmNSjgA .col-lg-x {
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.cid-s3zHmNSjgA .card-title,
+.cid-s3zHmNSjgA .card-ico,
+.cid-s3zHmNSjgA .line-wrap {
+  text-align: center;
+}
+.cid-s3zHmNSjgA .mbr-text,
+.cid-s3zHmNSjgA .card-link {
+  text-align: center;
+  color: #767676;
+}
 .cid-s3v8XrxDoI {
   padding-top: 45px;
   padding-bottom: 60px;
