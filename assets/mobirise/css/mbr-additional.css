@@ -3132,8 +3132,19 @@ section.lazy-placeholder:after {
 .cid-s3v4Mm0pUN .media-container-row .mbr-text {
   color: #232323;
 }
-.cid-s3ziSpl6z5 {
+.cid-s3zkBc35z5 {
   padding-top: 120px;
+  padding-bottom: 15px;
+  background-color: #9b956f;
+}
+.cid-s3zkBc35z5 .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-s3zkBc35z5 H2 {
+  color: #ffffff;
+}
+.cid-s3ziSpl6z5 {
+  padding-top: 15px;
   padding-bottom: 45px;
   background-color: #ffffff;
 }
