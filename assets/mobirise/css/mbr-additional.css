@@ -3236,7 +3236,7 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-s3zkBc35z5 {
-  padding-top: 90px;
+  padding-top: 105px;
   padding-bottom: 15px;
   background-color: #9b956f;
 }
@@ -4159,61 +4159,74 @@ section.lazy-placeholder:after {
 .cid-s3zWEuNVbD H2 {
   color: #ffffff;
 }
-.cid-s3zSlATKGa {
-  padding-top: 30px;
+.cid-s3JSkhevXp {
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-@media (min-width: 1500px) {
-  .cid-s3zSlATKGa .container {
-    max-width: 1400px;
-  }
+.cid-s3JSkhevXp .card-icon {
+  font-size: 56px;
+  color: #ed4266;
+  transition: color 0.3s;
 }
-.cid-s3zSlATKGa .card-wrapper {
-  background-position: center;
-  border-radius: 4px;
-  padding: 0;
-  cursor: pointer;
-  transition: all 0.3s;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-@media (max-width: 767px) {
-  .cid-s3zSlATKGa .card-box {
-    padding: 1rem;
-  }
-}
-.cid-s3zSlATKGa .link-wrap {
-  width: 100%;
-}
-.cid-s3zSlATKGa .link {
-  display: inline-block;
-}
-.cid-s3zSlATKGa .link a {
-  position: relative;
-  width: fit-content;
-  display: inline-block;
-  padding-right: 0.6rem;
+.cid-s3JSkhevXp .card-title {
   font-weight: 600;
+  letter-spacing: 1px;
 }
-.cid-s3zSlATKGa .link a:before {
-  position: absolute;
+.cid-s3JSkhevXp p {
+  font-weight: 400;
+}
+.cid-s3JSkhevXp .link-ico {
+  font-size: 0.8rem;
+  color: #36404c;
+  border: 2px solid #36404c;
+  border-radius: 100%;
+  padding: 0.5rem 0;
+  font-weight: 900;
+  padding-left: 9px;
+  padding-right: 7px;
   transition: all 0.3s;
-  right: 0px;
-  top: 55%;
-  opacity: 0;
-  transform: translateY(-50%);
-  content: "\e909";
-  font-family: 'Moririse2' !important;
-  color: currentColor;
-  font-size: 0.6rem;
 }
-.cid-s3zSlATKGa .link a:hover:before {
-  opacity: 1;
-  transform: translateX(8px) translateY(-50%);
+.cid-s3JSkhevXp .link-ico:hover {
+  background-color: #ed4266;
+  border-color: #ed4266;
+  color: white;
+}
+.cid-s3JSkhevXp .line {
+  width: 35px;
+  height: 3px;
+  display: inline-block;
+  background: #ed4266;
+  margin-bottom: 1.5rem;
+  transition: background 0.3s;
+}
+.cid-s3JSkhevXp .card-wrapper {
+  padding: 2rem;
+  transition: background 0.3s;
+  background: #ffffff;
+}
+.cid-s3JSkhevXp .card-wrapper:hover .link-ico {
+  background-color: #ed4266;
+  border-color: #ed4266;
+  color: white;
+}
+.cid-s3JSkhevXp .card-wrapper:hover .card-title a {
+  color: #0a1c44 !important;
+}
+.cid-s3JSkhevXp .col-lg-x {
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.cid-s3JSkhevXp .card-title,
+.cid-s3JSkhevXp .card-ico,
+.cid-s3JSkhevXp .line-wrap {
+  text-align: center;
+}
+.cid-s3JSkhevXp .mbr-text,
+.cid-s3JSkhevXp .card-link {
+  text-align: center;
+  color: #000000;
 }
 .cid-s3zSgHtT2K {
   padding-top: 0px;
