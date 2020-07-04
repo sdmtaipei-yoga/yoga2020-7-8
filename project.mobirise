@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page4.html",
     "theme": {
       "name": "educationm4",
       "title": "EducationM4",
@@ -54,7 +54,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 111,
+    "uniqCompNum": 115,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -4194,7 +4194,7 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor"
           },
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning\" href=\"http://www.sdm.org.tw/newwebclasstime3-1rst.php\" data-app-placeholder=\"Type Text\">線上報名</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning\" href=\"http://www.sdm.org.tw/newwebclasstime3-1rst.php\" data-app-placeholder=\"Type Text\">靜坐初探線上報名</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content8-1a",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -4287,11 +4287,203 @@
               "text-align": "left"
             }
           },
-          "_customHTML": "<section class=\"content07\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\">\n        <input type=\"color\" title=\"Link Icon Color\" name=\"linkIconColor\" value=\"#ffffff\" selected>\n        <input type=\"color\" title=\"Link Icon Bg Color\" name=\"linkIconBgColor\" value=\"#0077ff\" selected>\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"7\" step=\"1\" value=\"7\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n\n            <div class=\"card col-12 col-md-12 col-lg-6\" mbr-if=\"showTitle || showText || showLink\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n\n\n                        <h4 class=\"card-title align-center mbr-semibold pb-3 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>靜坐初探課程介紹</b></h4>\n                        <p class=\"mbr-text pb-3 mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap\">&nbsp; &nbsp; 人的心靈內在可說是一個大寶藏，蘊涵無限潛能。科學家也認為一般人只用到自己潛能的百分之二或三，而仍有百分之九十以上的潛能終其一生都沒有開發。而自古以來，靜坐就被視為一種開發心靈的有效工具。許多古聖先賢都是透過靜坐的練習而達到生命的巔峰。<br><br>本會所教導的靜坐系統，是一套開展心靈的實證科學，不屬於任何宗教，它可以幫助您從身體、心理與靈性三個層面上更認識自己，並成為自己生命的主人。<br>&nbsp; &nbsp; 我們運用一套有系統的方法，來引導浮躁不安的心靈一步步進入內在永恆無限的真我，這將使生命能量由較低的層面提昇到崇高的層次，進而超越個人的侷促心態，達到生命的最高成就~ 至上喜悅，天人合一與解脫了悟。</p>\n\n\n                        <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                            <h5 class=\"link mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLink\" data-app-selector=\".link, .link-wrap\"><a href=\"#\">Become a partner</a>\n                            </h5>\n                        </div>\n\n\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-md-12 col-lg-6\">\n\n                <div class=\"item-wrap\" mbr-if=\"items > 0\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">學習正式靜坐方法前的先修理論課程</span></h5>\n                </div>\n\n                <div class=\"item-wrap\" mbr-if=\"items > 1\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">費用全免</span></h5>\n                </div>\n\n                <div class=\"item-wrap\" mbr-if=\"items > 2\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">資深老師全程授課</span></h5>\n                </div>\n\n                <div class=\"item-wrap\" mbr-if=\"items > 3\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">基礎靜坐概念心法及介紹</span></h5>\n                </div>\n                <div class=\"item-wrap\" mbr-if=\"items > 4\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">任何誠懇、有渴望了解本會靜坐法門者皆可參加</span></h5>\n                </div>\n                <div class=\"item-wrap\" mbr-if=\"items > 5\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">課程結業後，可學習正式的靜坐方法</span></h5>\n                </div>\n                <div class=\"item-wrap\" mbr-if=\"items > 6\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">上課請穿著輕便服裝</span></h5>\n                </div>\n\n            </div>\n\n\n\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content07\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\">\n        <input type=\"color\" title=\"Link Icon Color\" name=\"linkIconColor\" value=\"#ffffff\" selected>\n        <input type=\"color\" title=\"Link Icon Bg Color\" name=\"linkIconBgColor\" value=\"#0077ff\" selected>\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"7\" step=\"1\" value=\"7\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n\n            <div class=\"card col-12 col-md-12 col-lg-6\" mbr-if=\"showTitle || showText || showLink\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n\n\n                        <h4 class=\"card-title align-center mbr-semibold pb-3 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>靜坐初探理論課程介紹</b></h4>\n                        <p class=\"mbr-text pb-3 mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap\">&nbsp; &nbsp; &nbsp; &nbsp; 人的心靈內在可說是一個大寶藏，蘊涵無限潛能。科學家也認為一般人只用到自己潛能的百分之二或三，而仍有百分之九十以上的潛能終其一生都沒有開發。而自古以來，靜坐就被視為一種開發心靈的有效工具。許多古聖先賢都是透過靜坐的練習而達到生命的巔峰。<br><br><br></p>\n\n\n                        <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                            <h5 class=\"link mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLink\" data-app-selector=\".link, .link-wrap\"><a href=\"#\">Become a partner</a>\n                            </h5>\n                        </div>\n\n\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-md-12 col-lg-6\">\n\n                <div class=\"item-wrap\" mbr-if=\"items > 0\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">學習正式靜坐方法前的先修理論課程</span></h5>\n                </div>\n\n                <div class=\"item-wrap\" mbr-if=\"items > 1\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">費用全免</span></h5>\n                </div>\n\n                <div class=\"item-wrap\" mbr-if=\"items > 2\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">資深老師全程授課</span></h5>\n                </div>\n\n                <div class=\"item-wrap\" mbr-if=\"items > 3\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">基礎靜坐概念心法及介紹</span></h5>\n                </div>\n                <div class=\"item-wrap\" mbr-if=\"items > 4\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">任何誠懇、有渴望了解本會靜坐法門者皆可參加</span></h5>\n                </div>\n                <div class=\"item-wrap\" mbr-if=\"items > 5\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">課程結業後，可學習本會靜坐實修方法</span></h5>\n                </div>\n                <div class=\"item-wrap\" mbr-if=\"items > 6\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">上課請穿著輕便服裝</span></h5>\n                </div>\n\n            </div>\n\n\n\n\n        </div>\n    </div>\n</section>",
           "_anchor": "content07-1e",
           "_isUserblock": true,
           "_sourceTheme": "financem4",
           "_cid": "s3zYa7fnOk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "content07",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".link-wrap": {
+              "width": "100%"
+            },
+            ".link": {
+              "display": "inline-block"
+            },
+            ".card": {
+              "margin": "auto"
+            },
+            ".item": {
+              "position": "relative",
+              "padding": "1rem 0",
+              "padding-left": "2rem",
+              "border-bottom": "1px solid #efefef",
+              "width": "100%",
+              "font-weight": "600",
+              "&:before": {
+                "position": "absolute",
+                "left": "0px",
+                "top": "55%",
+                "transform": "translateY(-50%)",
+                "content": "\"\\e908\"",
+                "font-family": "'Moririse2' !important",
+                "color": "@linkIconBgColor",
+                "font-size": "0.8rem"
+              }
+            },
+            ".link a": {
+              "position": "relative",
+              "width": "fit-content",
+              "display": "inline-block",
+              "padding-right": "2rem",
+              "font-weight": "600",
+              "&:before": {
+                "position": "absolute",
+                "right": "0px",
+                "font-weight": "900",
+                "top": "55%",
+                "transform": "translateY(-50%)",
+                "content": "\"\\e960\"",
+                "font-family": "'Moririse2' !important",
+                "color": "@linkIconColor",
+                "font-size": "0.7rem",
+                "background": "@linkIconBgColor",
+                "padding": "5px",
+                "border-radius": "50%",
+                "width": "22px",
+                "height": "22px",
+                "display": "flex",
+                "justify-content": "center",
+                "align-items": "center"
+              },
+              "&:hover": {
+                "text-decoration": "underline"
+              }
+            },
+            ".link, .link-wrap": {
+              "color": "#0077ff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#333333"
+            },
+            "@media (max-width: 992px)": {
+              "padding-top": "(@paddingTop * 5px)",
+              ".card-wrapper": {
+                "padding": "2rem 0rem"
+              }
+            },
+            ".mbr-text, .link-wrap": {
+              "text-align": "left"
+            }
+          },
+          "_customHTML": "<section class=\"content07\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\">\n        <input type=\"color\" title=\"Link Icon Color\" name=\"linkIconColor\" value=\"#ffffff\" selected>\n        <input type=\"color\" title=\"Link Icon Bg Color\" name=\"linkIconBgColor\" value=\"#0077ff\" selected>\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"7\" step=\"1\" value=\"7\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n\n            <div class=\"card col-12 col-md-12 col-lg-6\" mbr-if=\"showTitle || showText || showLink\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n\n\n                        <h4 class=\"card-title align-center mbr-semibold pb-3 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>靜坐實修課程介紹</b></h4>\n                        <p class=\"mbr-text pb-3 mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap\">&nbsp; &nbsp; &nbsp; &nbsp; 本會所教導的靜坐系統，是一套開展心靈的實證科學。係由印度阿南達瑪迦聖者~師利·師利·阿南達慕提先生教導給眾生的一套靜坐法門，總共有七個方法，每個鍛鍊的背後，都有其符合心靈科學的邏輯架構，能幫助靜坐學習者，更有效的淨化心靈，並在生命中的每一刻，與至上建立緊密的連結。<br>&nbsp; &nbsp; &nbsp; &nbsp; 這七個靜坐方法，須向本會阿闍黎Acarya(軌範師)學習。男性靜坐老師(達達Dada)個別教授男性，女的老師(嫡嫡Didi)教女性，這些阿闍黎Acarya(軌範師)都是通過嚴格訓練後方才取得教授資格的出家瑜伽修行者。<br>&nbsp; &nbsp; &nbsp; &nbsp; 學習此靜坐方法請先至少上過以下幾個課程中的任何一種：1、靜坐初探理論課程 2、靈性瑜伽基礎上 3、脈輪與勝王瑜伽教師證照班 &nbsp;3、完全瑜伽基礎上。</p>\n\n\n                        <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                            <h5 class=\"link mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLink\" data-app-selector=\".link, .link-wrap\"><a href=\"#\">Become a partner</a>\n                            </h5>\n                        </div>\n\n\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-md-12 col-lg-6\">\n\n                <div class=\"item-wrap\" mbr-if=\"items > 0\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">啟蒙課：建立個體小我與宇宙大我的關聯</span></h5>\n                </div>\n\n                <div class=\"item-wrap\" mbr-if=\"items > 1\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">第一課：安住於至上(道)</span></h5>\n                </div>\n\n                <div class=\"item-wrap\" mbr-if=\"items > 2\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">第二課：心不離道</span></h5>\n                </div>\n\n                <div class=\"item-wrap\" mbr-if=\"items > 3\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">第三課：集中與強化個體的五大基本元素</span></h5>\n                </div>\n                <div class=\"item-wrap\" mbr-if=\"items > 4\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">第四課：生命能(呼吸)控制法</span></h5>\n                </div>\n                <div class=\"item-wrap\" mbr-if=\"items > 5\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">第五課：脈輪淨化法</span></h5>\n                </div>\n                <div class=\"item-wrap\" mbr-if=\"items > 6\">\n                    <h5 class=\"item mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item, .item-wrap\"><span style=\"font-weight: normal;\">第六課：禪定大法</span></h5>\n                </div>\n\n            </div>\n\n\n\n\n        </div>\n    </div>\n</section>",
+          "_anchor": "content07-33",
+          "_isUserblock": true,
+          "_sourceTheme": "financem4",
+          "_cid": "s3JyBuIJhx",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "features11",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h2": {
+              "text-align": "left"
+            },
+            "h4": {
+              "text-align": "left",
+              "font-weight": "500"
+            },
+            "p": {
+              "color": "#767676",
+              "text-align": "left"
+            },
+            ".aside-content": {
+              "flex-basis": "100%",
+              "-webkit-flex-basis": "100%"
+            },
+            ".block-content": {
+              "display": "-webkit-flex",
+              "flex-direction": "column",
+              "-webkit-flex-direction": "column",
+              "word-break": "break-word"
+            },
+            ".media": {
+              "margin": "initial",
+              "align-items": "center",
+              "-webkit-align-items": "center"
+            },
+            ".mbr-figure": {
+              "align-self": "flex-start",
+              "-webkit-align-self": "flex-start",
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0"
+            },
+            ".card-img": {
+              "padding-right": "2rem",
+              "width": "auto"
+            },
+            ".card-img span": {
+              "font-size": "72px",
+              "color": "#707070"
+            },
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "row-reverse"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "padding-right": "0",
+                "padding-bottom": "1rem",
+                "margin-bottom": "2rem",
+                "& when (@reverseContent)": {
+                  "padding-bottom": "0",
+                  "margin-bottom": "0",
+                  "padding-top": "1rem",
+                  "margin-top": "2rem"
+                }
+              },
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "column-reverse"
+                }
+              }
+            },
+            "@media (max-width: 300px)": {
+              ".card-img span": {
+                "font-size": "40px !important"
+              }
+            }
+          },
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"50\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/news2020med-800x1130.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">2020長靜坐營</h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">長靜坐營係提供有學習過靜坐啟蒙課及其以上課程者實修鍛鍊的營隊。透過長時間靜坐的鍛鍊，能幫助加強專注集中力及建立靜坐的習慣。</p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\">\n                                        半日長靜心</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">地點：忠孝東路4段295號8樓<br>時間：早上8點~12點<br>內容：每場靈性舞蹈30分、靜坐1小時，共三場。<br>報名：27713559</p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\">一日長靜心</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">地點：內雙溪(須先登記以安排交通)&nbsp;<br>時間：早上9點~下午4:30&nbsp;<br>內容：每場靈性舞蹈30分、靜坐1小時，共四場。\n<br>午餐：50元<br>報名：0958750931</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_anchor": "features11-36",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s3JCLDDlOF",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
