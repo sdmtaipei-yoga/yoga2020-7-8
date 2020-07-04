@@ -1470,6 +1470,120 @@ section.lazy-placeholder:after {
 .cid-s3v4Mm0pUN .media-container-row .mbr-text {
   color: #232323;
 }
+.cid-s3JVfe1jTM {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-s3JVfe1jTM li {
+  list-style: none;
+}
+@media (min-width: 1500px) {
+  .cid-s3JVfe1jTM .container {
+    max-width: 1400px;
+  }
+}
+.cid-s3JVfe1jTM .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.cid-s3JVfe1jTM .social-list .mbr-iconfont-social {
+  font-size: 1.4rem;
+  color: #999999;
+}
+.cid-s3JVfe1jTM .social-list .mbr-iconfont-social:hover {
+  opacity: 0.6;
+}
+.cid-s3JVfe1jTM .social-list .soc-item {
+  margin: 0 .5rem;
+}
+.cid-s3JVfe1jTM .social-list a {
+  margin: 0;
+  opacity: 1;
+  height: 26px;
+  padding-right: 2px;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.cid-s3JVfe1jTM .social-list a:hover {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .cid-s3JVfe1jTM .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+.cid-s3JVfe1jTM .row {
+  justify-content: space-between;
+}
+.cid-s3JVfe1jTM .item-wrap {
+  margin-bottom: 14px;
+}
+.cid-s3JVfe1jTM .social-row {
+  width: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+  margin: 0 -0.5rem;
+}
+.cid-s3JVfe1jTM h4 {
+  margin: 0;
+}
+.cid-s3JVfe1jTM ul {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 992px) {
+  .cid-s3JVfe1jTM .row {
+    justify-content: flex-start;
+  }
+  .cid-s3JVfe1jTM .md-pb {
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-s3JVfe1jTM .social-row {
+    justify-content: center;
+  }
+}
+.cid-s3JVfe1jTM .item5 {
+  color: #000000;
+}
+.cid-s3JVfe1jTM .item4 {
+  color: #555555;
+}
+.cid-s3JVfe1jTM .item3 {
+  color: #555555;
+}
+.cid-s3JVfe1jTM .item2 {
+  color: #555555;
+}
+.cid-s3JVfe1jTM .item1 {
+  color: #555555;
+}
+.cid-s3JVfe1jTM .col-title1 {
+  color: #000000;
+}
+.cid-s3JVfe1jTM .col-title2 {
+  color: #000000;
+}
+.cid-s3JVfe1jTM .col-title3 {
+  color: #000000;
+}
+.cid-s3JVfe1jTM .col-title4 {
+  color: #000000;
+}
+.cid-s3JVfe1jTM .col-title5 {
+  color: #000000;
+}
+.cid-s3JVfe1jTM .col-text {
+  color: #555555;
+}
 .cid-rzHdRjg5Oj {
   padding-top: 15px;
   padding-bottom: 15px;
