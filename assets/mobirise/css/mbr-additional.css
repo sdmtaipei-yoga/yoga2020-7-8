@@ -3236,7 +3236,7 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-s3zkBc35z5 {
-  padding-top: 105px;
+  padding-top: 90px;
   padding-bottom: 15px;
   background-color: #9b956f;
 }
@@ -4382,8 +4382,13 @@ section.lazy-placeholder:after {
 .cid-s3JyBuIJhx .link-wrap {
   text-align: left;
 }
+.cid-s3JHwIQtBH {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
 .cid-s3JCLDDlOF {
-  padding-top: 90px;
+  padding-top: 45px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
@@ -4455,6 +4460,9 @@ section.lazy-placeholder:after {
   .cid-s3JCLDDlOF .card-img span {
     font-size: 40px !important;
   }
+}
+.cid-s3JCLDDlOF P {
+  color: #000000;
 }
 .cid-rzHbmdsnLL .navbar {
   padding: 0.5rem 0;
