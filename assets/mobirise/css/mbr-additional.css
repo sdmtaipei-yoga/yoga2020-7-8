@@ -4320,6 +4320,7 @@ section.lazy-placeholder:after {
 .cid-s3zYa7fnOk .mbr-text,
 .cid-s3zYa7fnOk .link-wrap {
   text-align: left;
+  color: #868282;
 }
 .cid-s3JIK1fyjA {
   padding-top: 45px;
@@ -4417,6 +4418,7 @@ section.lazy-placeholder:after {
 .cid-s3JyBuIJhx .mbr-text,
 .cid-s3JyBuIJhx .link-wrap {
   text-align: left;
+  color: #868282;
 }
 .cid-s3JJcJyqrK {
   padding-top: 60px;
@@ -4505,6 +4507,9 @@ section.lazy-placeholder:after {
 }
 .cid-s3JCLDDlOF P {
   color: #000000;
+}
+.cid-s3JCLDDlOF .mbr-text {
+  color: #868282;
 }
 .cid-rzHbmdsnLL .navbar {
   padding: 0.5rem 0;
