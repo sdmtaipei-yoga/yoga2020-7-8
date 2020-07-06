@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page8.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "educationm4",
       "title": "EducationM4",
@@ -6443,7 +6443,7 @@
     },
     "page6.html": {
       "settings": {
-        "title": "a",
+        "title": "yogateachertrainning_a",
         "order": 9
       },
       "components": [
@@ -7462,7 +7462,7 @@
     },
     "page7.html": {
       "settings": {
-        "title": "b",
+        "title": "yogateachertrainning_b",
         "order": 8
       },
       "components": [
@@ -8481,7 +8481,7 @@
     },
     "page8.html": {
       "settings": {
-        "title": "c",
+        "title": "yogateachertrainning_c",
         "order": 7
       },
       "components": [
@@ -9500,7 +9500,7 @@
     },
     "page9.html": {
       "settings": {
-        "title": "d",
+        "title": "yogateachertrainning_d",
         "order": 6
       },
       "components": [
