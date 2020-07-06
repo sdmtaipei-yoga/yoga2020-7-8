@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page4.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "educationm4",
       "title": "EducationM4",
@@ -29,13 +29,13 @@
       "titlePreset": "Innovation and Discovery",
       "nameSelectPreset": "education",
       "additionalSetColors": [
+        "#868282",
         "#f17f21",
         "#f56d0d",
         "#cf630b",
         "#767676",
         "#f5e714",
-        "#daf70c",
-        "#7db48d"
+        "#daf70c"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -12622,7 +12622,7 @@
               "color": "#767676"
             },
             ".mbr-text": {
-              "color": "#9e9e9e"
+              "color": "#868282"
             }
           },
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>簡介<br></b>&nbsp; &nbsp; &nbsp; &nbsp; 斷食是古老的自然療病法之一，許多種動物在生病時都會本能地斷食。斷食不只是不吃東西，也不只是為了身體的健康，其實更進一步是為了精神及靈性的進步。古代的聖賢也經常斷食，但這不只為了健康，還為了心智及性靈的提升。希臘哲學家，蘇格拉底、柏拉圖，在從事哲學著作或參加考試前，時常斷食，因為他們知道斷食可刺激精神力量。</p><p><b>斷食的原理</b><br>&nbsp; &nbsp; &nbsp; &nbsp; 斷食的原理是當你不吃東西的時侯，你的體內就會自然的經由一個是融解一個是擴散作用來排毒。所謂融解作用就是，在斷食期間會燃燒體內很多不必要的東西，而第一個就會先從體內最不需要的廢棄物拿來燃燒，所以斷食過後會身心舒暢。另外就是當你的生命有受到威脅的時侯，你身體就會自動啟動保護機制，尤其是免疫系統還有腎上線素，它兩者都具有殺菌作用。這就是人的自癒機制，所以在自然療法裏面，發燒不要去壓抑，發燒是一個自然的機制，透過正常的發燒，你整個人的免疫機制就會提升，否則就像一個國家盛平之世太久，遇到戰世的時侯找不到兵器，找到兵器打開的時侯已經不能用了，這就自然機制。<br><br><b>斷食的好處</b><br>&nbsp; &nbsp; &nbsp; &nbsp; 斷食能使身體自然淨化、回復生理機能、增強免疫力（抵抗力）， 比如身體輕盈、體位法做得比較好、五官比以前靈敏，增強大腦的反應力、判斷力及記憶力，而且可以治療舊疾及不易再得新病。這些都是因為體內毒素減少、酸中毒(尿酸晶)減少、各種多餘的雜質減少，而且因為臟腑得以休息，能使生理機能再回復正常，腺體的分泌正常，使整個系統充滿活力，重建所有的細胞、組織、血管，減低老化和增長壽命。人的生理機能一旦回復後，天生免疫能力就會增強。\n此外，斷食可以減少物質欲望的誘惑與依賴、使情緒得到更好的控制（並增強意志力）並能使粗鈍能量轉化為精細的能量並提昇生命的潛能，使我們更接近至高意識。<br><br><b>營隊內容</b><br>&nbsp; &nbsp; &nbsp; &nbsp; 營隊活動包含瑜伽斷食及飲食法介紹、斷食原理、實際斷食36小時體驗、瑜伽體位法、戶外散步排毒、瑜伽梵唱靜心、如何正確復食，並會為參與者準備復食的早餐與午餐。本營隊由喜悅之路靜坐協會20年以上斷食經驗及超過15年舉辦斷食營隊經驗的資深教師群主持。<br><br><b>活動費用 - </b>二天二夜2800元 。\n<span style=\"font-size: 1.5rem;\"></span></p><p><b>費用優待 -&nbsp; \n</b></p><p>1、新生於活動開始前一個月繳費者享九折優惠。複習生八折。&nbsp; \n</p><p>2、團體報名(四人以上)八折，歡迎組團參加，滿12人即可成行。&nbsp; \n</p><p>\n<b>匯款帳號 -</b><br>第一銀行南京東路分行007、 戶名：中華民國喜悅之路靜坐協會 、帳號：143-10-103201 &nbsp; \n<span style=\"font-size: 1.5rem;\">&nbsp;&nbsp;</span><span style=\"font-size: 1.5rem;\"></span></p><p>\n<b>退費 -</b> 若匯款後無法參加者，可於活動開始前7天申請退費，若未於期限內申請，恕無法退費。 &nbsp;\n<span style=\"font-size: 1rem;\"></span></p><p><b>其它 -</b> 若遇不可抗力因素，本會得隨時調整活動行程。<br><br><b>營隊地點 -&nbsp;</b>新店市屈尺路38號之1\n</p><p><b>大眾交通 &nbsp;-&nbsp;</b>搭乘捷運至新店總站，下車後轉搭往烏來方向之新店客運849至屈尺站下車，下車後步行5分鐘即可抵達。<br>開車：由新店北宜公路(台9線)轉新烏路，車行約20分鐘，過花園新城後第一紅綠燈右轉。\n</p></div>\n        </div>\n    </div>\n</section>",
