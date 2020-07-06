@@ -4156,7 +4156,7 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-s3zWEuNVbD {
-  padding-top: 90px;
+  padding-top: 105px;
   padding-bottom: 15px;
   background-color: #3e9356;
 }
@@ -4165,6 +4165,11 @@ section.lazy-placeholder:after {
 }
 .cid-s3zWEuNVbD H2 {
   color: #ffffff;
+}
+.cid-s3zSgHtT2K {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
 }
 .cid-s3JSkhevXp {
   padding-top: 0px;
@@ -4234,11 +4239,6 @@ section.lazy-placeholder:after {
 .cid-s3JSkhevXp .card-link {
   text-align: center;
   color: #000000;
-}
-.cid-s3zSgHtT2K {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
 }
 .cid-s3zYa7fnOk {
   padding-top: 60px;
@@ -4332,8 +4332,13 @@ section.lazy-placeholder:after {
 .cid-s3JIK1fyjA H2 {
   color: #ffffff;
 }
+.cid-s3JHwIQtBH {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
 .cid-s3JyBuIJhx {
-  padding-top: 60px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -4403,7 +4408,7 @@ section.lazy-placeholder:after {
 }
 @media (max-width: 992px) {
   .cid-s3JyBuIJhx {
-    padding-top: 20px;
+    padding-top: 5px;
   }
   .cid-s3JyBuIJhx .card-wrapper {
     padding: 2rem 0rem;
@@ -4412,11 +4417,6 @@ section.lazy-placeholder:after {
 .cid-s3JyBuIJhx .mbr-text,
 .cid-s3JyBuIJhx .link-wrap {
   text-align: left;
-}
-.cid-s3JHwIQtBH {
-  padding-top: 0px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
 }
 .cid-s3JJcJyqrK {
   padding-top: 60px;
