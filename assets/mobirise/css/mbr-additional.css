@@ -1298,11 +1298,18 @@ section.lazy-placeholder:after {
     align-self: center;
   }
 }
-.cid-s3xqk2vXQC {
-  background-image: url("../../../assets/images/picture.jpeg");
+.cid-s3Wa7nGNik {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("../../../assets/images/picture-1824x1154.jpg");
 }
-.cid-s3xqk2vXQC H3 {
-  color: #f7ed4a;
+.cid-s3Wa7nGNik .mbr-section-title {
+  text-align: center;
+}
+.cid-s3Wa7nGNik .mbr-text,
+.cid-s3Wa7nGNik .mbr-section-btn {
+  text-align: center;
+  color: #f5e714;
 }
 .cid-rzHbrk40eg {
   padding-top: 45px;
