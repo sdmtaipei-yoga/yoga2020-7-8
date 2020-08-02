@@ -1311,30 +1311,28 @@ section.lazy-placeholder:after {
   text-align: center;
   color: #f5e714;
 }
-.cid-s6tJhoExgD {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #f5f7fa;
+.cid-s6tZ7keh6L {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
 }
-.cid-s6tJhoExgD .mbr-text {
+.cid-s6tZ7keh6L .mbr-text {
   color: #879a9f;
 }
-@media (min-width: 922px) {
-  .cid-s6tJhoExgD .card-wrapper {
-    padding: 0 1rem;
-  }
+.cid-s6tZ7keh6L .color {
+  background: #fff3f3;
 }
-.cid-s6tJhoExgD .counter-container ul {
+.cid-s6tZ7keh6L .counter-container ul {
   margin-bottom: 0;
   padding-left: 1.2rem;
   line-height: 2;
 }
-.cid-s6tJhoExgD .counter-container ul li {
+.cid-s6tZ7keh6L .counter-container ul li {
   margin-bottom: .2rem;
   list-style: none;
   position: relative;
 }
-.cid-s6tJhoExgD .counter-container ul li:before {
+.cid-s6tZ7keh6L .counter-container ul li:before {
   position: absolute;
   left: -2.2rem;
   padding-top: 3px;
@@ -1350,14 +1348,22 @@ section.lazy-placeholder:after {
   height: 6px;
   border-radius: 50%;
 }
-.cid-s6tJhoExgD .mbr-text,
-.cid-s6tJhoExgD .mbr-section-btn {
-  color: #656565;
+@media (min-width: 767px) {
+  .cid-s6tZ7keh6L .card2 {
+    margin-left: 1rem;
+  }
+  .cid-s6tZ7keh6L .card-wrapper {
+    margin-right: 1rem;
+  }
+}
+.cid-s6tZ7keh6L .mbr-text,
+.cid-s6tZ7keh6L .mbr-section-btn {
+  color: #232323;
 }
 .cid-rzHbrk40eg {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #ffffff;
+  background-color: #e9e9e9;
 }
 .cid-rzHbrk40eg .card-wrapper {
   overflow: hidden;
@@ -1440,13 +1446,17 @@ section.lazy-placeholder:after {
   color: #f15721;
 }
 .cid-s6tJkbvIHx {
-  padding-top: 60px;
-  padding-bottom: 45px;
-  background-image: url("../../../assets/images/background2-4.jpg");
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-color: #f15721;
+}
+.cid-s6tJkbvIHx .mbr-text,
+.cid-s6tJkbvIHx .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-s3v4Mm0pUN {
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
 .cid-s3v4Mm0pUN .row-links {
@@ -1524,18 +1534,6 @@ section.lazy-placeholder:after {
 }
 .cid-s3v4Mm0pUN .media-container-row .mbr-text {
   color: #232323;
-}
-.cid-rzHdRjg5Oj {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #f15721;
-}
-.cid-rzHdRjg5Oj .links {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-rzHdRjg5Oj p {
-  margin: 0;
 }
 .cid-rzHbmdsnLL .navbar {
   padding: 0.5rem 0;
