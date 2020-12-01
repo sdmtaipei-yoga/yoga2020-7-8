@@ -880,7 +880,8 @@
                   "background-size": "cover",
                   "background-image": "url(@figure)"
                 }
-              }
+              },
+              "text-align": "center"
             },
             ".mbr-section-title": {
               "margin-bottom": "33px",
