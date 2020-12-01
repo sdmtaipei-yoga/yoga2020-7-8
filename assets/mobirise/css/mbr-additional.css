@@ -1342,18 +1342,6 @@ section.lazy-placeholder:after {
   z-index: 1;
   text-align: center;
 }
-.cid-sfzewd0Q4b .mbr-section-subtitle:after {
-  content: "";
-  position: absolute;
-  left: -92px;
-  top: 147px;
-  width: 85px;
-  height: 85px;
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../../../assets/images/compass.svg");
-}
 .cid-sfzewd0Q4b .mbr-section-title {
   margin-bottom: 33px;
   color: #014188;
