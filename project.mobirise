@@ -54,7 +54,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 165,
+    "uniqCompNum": 166,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -13401,207 +13401,105 @@
           "_params": {}
         },
         {
-          "_name": "slider3",
+          "_name": "features11",
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "overflow": "hidden",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "& when (@bgColor2) and (@bg-type = 'color')": {
-              ".two__background:before": {
-                "content": "\"\"",
-                "position": "absolute",
-                "top": "0",
-                "right": "0",
-                "max-width": "49%",
-                "width": "100%",
-                "height": "100%",
-                "background-color": "@twoBgColor",
-                "z-index": "0"
-              }
-            },
-            ".carousel-inner when (@showArrows)": {
-              "margin-bottom": "70px"
-            },
-            ".slider__content": {
-              "padding-top": "52px",
+            "h2": {
               "text-align": "left"
             },
-            ".mbr-section-subtitle": {
-              "color": "#d3045f",
-              "margin-bottom": "13px",
-              "position": "relative",
-              "z-index": "1",
-              "& when (@showFigure)": {
-                "&:after": {
-                  "content": "\"\"",
-                  "position": "absolute",
-                  "left": "-92px",
-                  "top": "147px",
-                  "width": "85px",
-                  "height": "85px",
-                  "z-index": "-1",
-                  "background-repeat": "no-repeat",
-                  "background-size": "cover",
-                  "background-image": "url(@figure)"
-                }
-              }
+            "h4": {
+              "text-align": "left",
+              "font-weight": "500"
             },
-            ".mbr-section-title": {
-              "margin-bottom": "33px",
-              "color": "#014188"
+            "p": {
+              "color": "#767676",
+              "text-align": "left"
             },
-            ".slider__image": {
-              "margin-left": "11.8%"
+            ".aside-content": {
+              "flex-basis": "100%",
+              "-webkit-flex-basis": "100%"
             },
-            ".img-wrap": {
-              "max-width": "100%",
-              "img": {
-                "width": "100%",
-                "object-fit": "cover"
-              }
-            },
-            ".carousel-indicators": {
-              "display": "flex",
+            ".block-content": {
+              "display": "-webkit-flex",
               "flex-direction": "column",
-              "margin": "0",
-              "transition": "all 0.25s",
-              "height": "100%",
-              "width": "50px",
-              "left": "44.5%",
-              "right": "auto",
-              ".active": {
-                "background": "@indicatorsColor",
-                "opacity": "1",
-                "border": "none",
-                "&:before": {
-                  "content": "\"\"",
-                  "display": "block",
-                  "position": "absolute",
-                  "top": "-14px",
-                  "left": "-14px",
-                  "width": "40px",
-                  "height": "40px",
-                  "border-radius": "50%",
-                  "background-color": "inherit",
-                  "opacity": ".2"
-                }
-              },
-              "li": {
-                "width": "12px",
-                "height": "12px",
-                "border": "none",
-                "margin-bottom": "32px",
-                "box-sizing": "border-box",
-                "background-color": "@indicatorsColor",
-                "border-radius": "50%",
-                "position": "relative",
-                "opacity": ".2"
-              }
+              "-webkit-flex-direction": "column",
+              "word-break": "break-word"
             },
-            ".carousel-controls": {
-              "a": {
-                "border-radius": "50%",
-                "border": "2px solid @indicatorsColor",
-                "background-color": "transparent",
-                "span": {
-                  "transition": "all .3s",
-                  "color": "@indicatorsColor",
-                  "font-size": "18px"
-                },
-                "&:hover": {
-                  ".mobi-mbri-left": {
-                    "transform": "translateX(-5px)"
-                  },
-                  ".mobi-mbri-right": {
-                    "transform": "translateX(5px)"
-                  }
-                }
-              },
-              ".carousel-control-next, .carousel-control-prev": {
-                "opacity": "1",
-                "width": "44px",
-                "height": "44px"
-              },
-              ".carousel-control-next": {
-                "right": "40%",
-                "bottom": "5px",
-                "top": "auto",
-                "left": "auto"
-              },
-              ".carousel-control-prev": {
-                "right": "45%",
-                "bottom": "5px",
-                "top": "auto",
-                "left": "auto"
-              }
+            ".media": {
+              "margin": "initial",
+              "align-items": "center",
+              "-webkit-align-items": "center"
             },
-            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
-              ".image-element": {
-                "min-width": "50%"
+            ".mbr-figure": {
+              "align-self": "flex-start",
+              "-webkit-align-self": "flex-start",
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0"
+            },
+            ".card-img": {
+              "padding-right": "2rem",
+              "width": "auto"
+            },
+            ".card-img span": {
+              "font-size": "72px",
+              "color": "#707070"
+            },
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
               },
               ".media-container-row": {
-                "width": "100%"
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "row-reverse"
+                }
               }
             },
             "@media (max-width: 991px)": {
-              ".two__background:before": {
-                "max-width": "90%"
-              },
-              ".carousel-indicators": {
-                "flex-direction": "row",
-                "height": "50px",
-                "width": "100%",
-                "left": "auto",
-                "bottom": "0",
-                "right": "auto",
-                "li": {
-                  "margin": "0 16px"
+              ".mbr-figure": {
+                "padding-right": "0",
+                "padding-bottom": "1rem",
+                "margin-bottom": "2rem",
+                "& when (@reverseContent)": {
+                  "padding-bottom": "0",
+                  "margin-bottom": "0",
+                  "padding-top": "1rem",
+                  "margin-top": "2rem"
                 }
               },
-              ".slider__content": {
-                "padding-top": "0",
-                "margin-bottom": "72px"
-              },
-              ".mbr-section-subtitle": {
-                "margin-bottom": "6px",
-                "&:after": {
-                  "content": "none"
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "column-reverse"
                 }
-              },
-              ".mbr-section-title": {
-                "margin-bottom": "18px"
-              },
-              ".slider__image": {
-                "margin-left": "0",
-                "margin-bottom": "100px"
-              },
-              ".img-wrap": {
-                "width": "100%"
-              },
-              ".carousel-controls": {
-                "display": "none"
-              },
-              ".carousel-inner": {
-                "margin-bottom": "0"
               }
             },
+            "@media (max-width: 300px)": {
+              ".card-img span": {
+                "font-size": "40px !important"
+              }
+            },
+            "P": {
+              "color": "#000000"
+            },
             ".mbr-text": {
-              "color": "#4c4c4c"
+              "color": "#868282"
             }
           },
-          "_customHTML": "<section class=\"slider3 carousel slide testimonials-slider extSlider\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n\n   <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <header>Size</header>\n        <input type=\"range\" title=\"Padding Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Padding Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" inline>\n       <header>Show/Hide</header>\n       <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n       <input type=\"checkbox\" title=\"Show Figure\" name=\"showFigure\" condition=\"showSubtitle\" checked>\n        <input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/compass.svg\" condition=\"showFigure && showSubtitle\">\n       <header>Slider</header>\n        <input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n       <input type=\"checkbox\" title=\"Show Indicators\" name=\"showIndicators\">\n       <input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked>\n       <input type=\"color\" title=\"Arrows/Indicators Color\" name=\"indicatorsColor\" value=\"#014188\" condition=\"showArrows || showIndicators\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\">\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n       <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n        </fieldset>\n       <input type=\"checkbox\" title=\"2 BG Color\" name=\"bgColor2\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"2 Background Color\" value=\"#ececec\" name=\"twoBgColor\" condition=\"bgColor2 && bg.type == 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"two__background\"></div>\n    <div class=\"container-fluid\">\n\n        <div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n            <div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n                <div class=\"carousel-item\">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n                            <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">ACTIVITIES</h4>\n                            <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">學員分享</h3>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><br>學員Z：\n<br>瑜珈體位法很舒服。\n<br>拍手法與肚子按摩很有幫助，回家也可以自己做。\n<br>在戶外沐浴陽光，做氣循環，做完之後，更加精神。\n<br>自製優格真的很棒，營養滿滿。\n<br>很美味、簡單，卻滋味豐富的一餐。\n<br>我做到了耶！熬過了第一天的禁食，跟第二天早上檸檬汁的洗禮，就成功了！\n<br>第一次斷食，因為是跟著團隊一起做，才可能順利完成，謝謝大家的協助！<br><br>學員Y：\n<br>體位法讓斷食的飢餓感消失，也讓身體舒展。\n靈性舞蹈氣氛很舒服。\n依老師教的靜坐法，有比較容易坐久。\n<br>講解的很清楚，知道未來如何自己斷食。\n<br>認識穴位，多加操作，應該能讓身體更健康。\n<br>踩草地原本是令我不太習慣的事，但踩著踩著，意識著四周的能量，心情與腳步都輕盈愉快起來了。\n<br>簡單的清粥就有這種甜味，讓休息一天的味覺醒了過來。\n<br>瑜珈飲食觀講了許多我原先知道的事，但講解後才知道原因及原理。\n<br>正確飲食法將日常生活中，如何實地實行的方法說明後，也許自行操作，不會是難事。\n很開心來了趟身心靈洗滌課程！<br></p>\n                        </div>\n                        <div class=\"col-12 col-lg-7\">\n                            <div class=\"slider__image\">\n                                <div class=\"img-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/2021-1304x1844.jpg\" alt title>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n            </div>\n            <div class=\"carousel-indicators\" mbr-if=\"showIndicators\">\n                <li data-slide-to=\"0\" class=\"active\"></li>\n                <li mbr-if=\"testimonialsSlides> 1\" data-slide-to=\"1\"></li>\n                <li mbr-if=\"testimonialsSlides> 2\" data-slide-to=\"2\"></li>\n                <li mbr-if=\"testimonialsSlides> 3\" data-slide-to=\"3\"></li>\n                <li mbr-if=\"testimonialsSlides> 4\" data-slide-to=\"4\"></li>\n                <li mbr-if=\"testimonialsSlides> 5\" data-slide-to=\"5\"></li>\n                <li mbr-if=\"testimonialsSlides> 6\" data-slide-to=\"6\"></li>\n                <li mbr-if=\"testimonialsSlides> 7\" data-slide-to=\"7\"></li>\n                <li mbr-if=\"testimonialsSlides> 8\" data-slide-to=\"8\"></li>\n                <li mbr-if=\"testimonialsSlides> 9\" data-slide-to=\"9\"></li>\n            </div>\n                \n            <div class=\"carousel-controls\" mbr-if=\"showArrows\">\n                <a data-app-prevent-settings class=\"carousel-control carousel-control-prev\" role=\"button\" data-slide=\"prev\">\n                    <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-left mobi-mbri\"></span>\n                    <span class=\"sr-only\">Previous</span>\n                </a>\n                <a data-app-prevent-settings class=\"carousel-control carousel-control-next\" role=\"button\" data-slide=\"next\">\n                    <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                    <span class=\"sr-only\">Next</span>\n                </a>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "slider3-4k",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"50\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/2021-952x1346.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">學員分享</h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">學員Y： \n<br>體位法讓斷食的飢餓感消失，也讓身體舒展。 靈性舞蹈氣氛很舒服。 依老師教的靜坐法，有比較容易坐久。 \n<br>講解的很清楚，知道未來如何自己斷食。 \n<br>認識穴位，多加操作，應該能讓身體更健康。 \n<br>踩草地原本是令我不太習慣的事，但踩著踩著，意識著四周的能量，心情與腳步都輕盈愉快起來了。 \n<br>簡單的清粥就有這種甜味，讓休息一天的味覺醒了過來。 \n<br>瑜珈飲食觀講了許多我原先知道的事，但講解後才知道原因及原理。 \n<br>正確飲食法將日常生活中，如何實地實行的方法說明後，也許自行操作，不會是難事。 很開心來了趟身心靈洗滌課程！</p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-bookmark\" style=\"font-size: 54px;\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\">\n                                        報名須知</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">1、以先報名繳費者優先，名額最多14名。<br>2、若無法參加，可於營隊開始前一周辦理退費，以便候補學員及營隊採購統計，逾期則無法退費。</p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-bookmark\" style=\"font-size: 54px;\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\">一日長靜心</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">地點：士林至善路3段336巷80號<br>時間：早上9點~下午4:30&nbsp;<br>內容：每場靈性舞蹈30分、靜坐1小時，共四場。\n<br>午餐：提供午餐，50元<br>報名：須先報名預約安排交通0958750931</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_anchor": "features11-4l",
           "_isUserblock": true,
-          "_sourceTheme": "voyagem4",
-          "_cid": "shSWDtzJ6y",
+          "_sourceTheme": "mobirise4",
+          "_cid": "shSYlUIbq1",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
