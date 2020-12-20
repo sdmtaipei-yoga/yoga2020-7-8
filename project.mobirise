@@ -54,7 +54,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 200,
+    "uniqCompNum": 214,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -16829,11 +16829,11 @@
           "_name": "menu1",
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <select title=\"Widget Count\" name=\"widgetCount\">\n            <option value=\"0\" selected>0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <select title=\"Menu Align\" name=\"menuAlign\">\n            <option value=\"left\">Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"right\" selected>Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Size</header>\n        <input type=\"range\" title=\"Logo\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.5\" value=\"3.5\" condition=\"showLogo\">\n        <header>Colors</header>\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#f15721\">\n        <input type=\"color\" title=\"Top Menu\" name=\"menutopColor\" value=\"#f15721\">\n        <input type=\"color\" title=\"Menu\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Dropdown\" name=\"drColor\" value=\"#9e9e9e\">\n        <input type=\"color\" title=\"Dropdown Border\" name=\"drbrColor\" value=\"#f5f7fa\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <div class=\"menu-content-top\" mbr-if=\"widgetCount > 0\">\n\n\n\n            <div class=\"menu-content-right\">\n                <div class=\"info-widget\">\n                    <span mbr-icon class=\"widget-icon mbr-iconfont mbri-mobile2\" style=\"color: rgb(158, 158, 158);\"></span>\n                    <div class=\"widget-content\" mbr-theme-style=\"display-4\">\n                        <p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">+ (123) 1800-567-8990</p>\n                    </div>\n                </div>\n                <div class=\"info-widget\" mbr-if=\"widgetCount > 1\">\n                    <span mbr-icon class=\"widget-icon mbr-iconfont mbri-clock\" style=\"color: rgb(158, 158, 158);\"></span>\n                    <div class=\"widget-content\" mbr-theme-style=\"display-4\">\n                        <p class=\"widget-title mbr-fonts-style\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">Mon - Fri: 9:00AM - 5:00PM</p>\n                    </div>\n                </div>\n                <div class=\"info-widget\" mbr-if=\"widgetCount > 2\">\n                    <span mbr-icon class=\"widget-icon mbr-iconfont mbri-letter\" style=\"color: rgb(158, 158, 158);\"></span>\n                    <div class=\"widget-content mbr-fonts-style\">\n                        <p class=\"widget-title\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">office@example.com</p>\n                    </div>\n                </div>\n\n                <div class=\"info-widget\" mbr-if=\"widgetCount > 3\">\n                    <span mbr-icon class=\"widget-icon mbri-letter mbr-iconfont\"></span>\n                    <div class=\"widget-content mbr-fonts-style\">\n                        <p class=\"widget-title\" data-app-selector=\".widget-title, .widget-icon\" mbr-theme-style=\"display-4\">office@example.com</p>\n                    </div>\n                </div>\n\n\n\n\n\n\n\n\n\n\n\n            </div>\n        </div>\n        <div class=\"menu-bottom\">\n\n\n            <div class=\"menu-logo\" mbr-if=\"showLogo || showBrand\">\n                <div class=\"navbar-brand\">\n                    <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                        <a href=\"https://mobirise.com\">\n                            <img src=\"@PROJECT_PATH@/assets/images/27131443-12727a7a47-m-1-110x121.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                        </a>\n                    </span>\n                    <span mbr-if=\"showBrand\" mbr-theme-style=\"display-5\" mbr-buttons class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a href=\"index.html\" class=\"brand-name mbr-black mbr-bold text-primary\" data-app-selector=\".brand-name\" data-app-placeholder=\"Type Text\">喜悅之路靜坐協會</a></span>\n                </div>\n            </div>\n\n\n\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown js-float-line\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link mbr-black text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            首頁</a>\n                    </li><li class=\"nav-item dropdown\">\n                        <a class=\"nav-link link mbr-black text-black dropdown-toggle\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">\n                            瑜伽課程</a><div class=\"dropdown-menu\"><a class=\"mbr-black text-black dropdown-item\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">靈性瑜伽</a><a class=\"mbr-black text-black dropdown-item\" href=\"page3.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">健康瑜伽</a><a class=\"mbr-black text-black dropdown-item\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">完全瑜伽</a><a class=\"mbr-black text-black dropdown-item\" href=\"page12.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">瑜伽哲學精修</a></div>\n                    </li>\n                    <li class=\"nav-item dropdown\">\n                        <a class=\"nav-link link mbr-black dropdown-toggle text-black\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">200小時瑜伽師資證照</a>\n                        <div class=\"dropdown-menu\">\n                            <a class=\"mbr-black dropdown-item text-black\" href=\"page6.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">A級 脈輪與拙火瑜伽師資<br></a>\n                            <a class=\"mbr-black dropdown-item text-black\" href=\"page7.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">B級 瑜伽呼吸與身印師資</a>\n                            <a class=\"mbr-black dropdown-item text-black\" href=\"page8.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">C級 五大元素與心靈轉化</a><a class=\"mbr-black dropdown-item text-black\" href=\"page9.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">D級 如何預防瑜伽運動傷害</a><a class=\"mbr-black text-black dropdown-item\" href=\"page5.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">A-D級 200小時瑜伽師資</a>\n                        </div>\n                    </li>\n\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link mbr-black text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">靜坐課程</a>\n                        \n                    </li>\n\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link mbr-black text-black\" href=\"page10.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">靈性自發功</a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link mbr-black text-black\" href=\"page11.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">瑜伽斷食排毒營</a>\n                    </li></ul>\n\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-md btn-primary-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"> Sign Up</a>\n                </div>\n\n            </div>\n            <button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n\n\n\n\n\n\n\n        </div>\n    </nav>\n</section>",
           "_cid": "sjABNu23wF",
+          "_anchor": "menu1-5d",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-5d"
+          "_params": {}
         },
         {
           "_name": "content9",
@@ -16999,11 +16999,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sjABNxKIbG",
+          "_anchor": "footer7-5e",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer7-5e"
+          "_params": {}
         }
       ]
     },
@@ -17820,40 +17820,183 @@
           "_params": {}
         },
         {
-          "_name": "content1",
+          "_name": "content01",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".mbr-text": {
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".link-wrap": {
+              "width": "100%"
+            },
+            ".link": {
+              "display": "inline-block"
+            },
+            ".link a": {
+              "position": "relative",
+              "width": "fit-content",
+              "display": "inline-block",
+              "padding-right": "1rem",
+              "font-weight": "600",
+              "&:before": {
+                "position": "absolute",
+                "right": "0px",
+                "font-weight": "900",
+                "top": "55%",
+                "transform": "translateY(-50%)",
+                "content": "\"\\e909\"",
+                "font-family": "'Moririse2' !important",
+                "color": "currentColor",
+                "font-size": "0.6rem"
+              },
+              "&:hover": {
+                "text-decoration": "underline"
+              }
+            },
+            ".link, .link-wrap": {
               "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#333333"
             }
           },
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#7c6767\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>&nbsp; &nbsp; &nbsp; &nbsp; 斷食的兩個意思：<br>&nbsp; &nbsp; &nbsp; &nbsp; anaśana：an是「不」+aśana是「進食」組成。此種斷食是指一段時間，不吃任何食物。此時身體仍繼續工作，它會消化體內累積的及過剩的廢物，然後將它們排泄出去，以淨化身心，是一種體內的大掃除，並進一步回復身體的機能，幫助身心健康。\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp;upavāsa：upa是「接近」，vāsa是「生命體，有生命的，居住」，所以此字的字義之一是「住得比較接近至上」，也表示重視那幾天的修煉，以提升心靈。\u0003\u0003        當今全世界的斷食營或斷食療法，基本上都是以生理上的斷食為主，鮮少談到藉由斷食來從事身心靈轉化的鍛鍊，然而此身心靈轉化的鍛鍊才是修行者的首要目的。不管是釋迦牟尼佛、摩西、蘇格拉底等都是藉由長天期的斷食來幫助性靈的提升和開悟。因此在梵文裡，各個宗派所使用的斷食字都是upavāsa，接近至上，而非anaśana，不吃東西。</p><p><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n\n            <div class=\"card col-12 col-md-12 col-lg-8\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box \">\n\n\n                        <h4 class=\"card-title align-center mbr-semibold pb-4 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>斷食轉化身心靈</b></h4>\n                        <p class=\"mbr-text pb-2 mbr-semibold align-left mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap\">斷食有兩個意思：\n<br>1、anaśana：an是「不」+aśana是「進食」組成。此種斷食是指一段時間，不吃任何食物。此時身體仍繼續工作，它會消化體內累積的及過剩的廢物，然後將它們排泄出去，以淨化身心，是一種體內的大掃除，並進一步回復身體的機能，幫助身心健康。\n<br><br>2、upavāsa：upa是「接近」，vāsa是「生命體，有生命的，居住」，所以此字的字義之一是「住得比較接近至上」，也表示重視那幾天的修煉，以提升心靈。\u0003\u0003 當今全世界的斷食營或斷食療法，基本上都是以生理上的斷食為主，鮮少談到藉由斷食來從事身心靈轉化的鍛鍊，然而此身心靈轉化的鍛鍊才是修行者的首要目的。不管是釋迦牟尼佛、摩西、蘇格拉底等都是藉由長天期的斷食來幫助性靈的提升和開悟。因此在梵文裡，各個宗派所使用的斷食字都是upavāsa，接近至上，而非anaśana，不吃東西。</p>\n\n                        <div class=\"link-wrap\" mbr-if=\"showLink\">\n                            <h5 class=\"link mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLink\" data-app-selector=\".link, .link-wrap\"><a href=\"#\" class=\"text-primary\">View all our features</a></h5>\n                        </div>\n\n\n                    </div>\n\n                </div>\n            </div>\n\n\n\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content01-5t",
           "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "sjABNvya1P",
-          "_anchor": "content1-4y",
+          "_sourceTheme": "financem4",
+          "_cid": "sjIMzRJ4cN",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
         },
         {
-          "_name": "content8",
+          "_name": "features011",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".link-wrap": {
+              "width": "100%",
+              "display": "flex",
+              "flex-direction": "column",
+              "margin-bottom": "1rem"
+            },
+            ".link": {
+              "display": "inline-block",
+              "position": "relative",
+              "width": "fit-content",
+              "padding": "0 1.4rem",
+              "&:before": {
+                "position": "absolute",
+                "left": "0px",
+                "top": "55%",
+                "transform": "translateY(-50%)",
+                "content": "\"\\e908\"",
+                "font-family": "'Moririse2' !important",
+                "color": "@primaryColor",
+                "font-size": "0.8rem"
+              }
+            },
+            ".link, .link-wrap": {
+              "color": "#555555",
+              "text-align": "left"
+            },
+            "img": {
+              "width": "100%"
+            },
+            "@media (max-width: 992px)": {
+              ".card": {
+                "margin-bottom": "2rem!important"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".link-wrap": {
+                "align-items": "center"
+              }
+            }
           },
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"page14.html\" data-app-placeholder=\"Type Text\">線上報名</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\" checked>\n        <input type=\"range\" inline title=\"Links\" name=\"links\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showLink\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n\n            <div class=\"card col-12 col-md-12 col-lg-6 m-auto\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n\n\n                        <h4 class=\"card-title align-left mbr-semibold pb-3 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>營隊特色</b></h4>\n                        <p class=\"mbr-text pb-2 mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap, .mbr-section-btn\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus\n                            ipsum semper, sit amet luctus turpis porttitor. Ut libero ante, varius quis ligula\n                            consectetur tortor.</p>\n\n\n                        <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 0\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">依個人身心狀況規劃斷食</h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 1\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">採三天有水斷或蔬果汁斷食                                <br></h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 2\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">分組並有組長隨時關照學員身心狀況                                <br></h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 3\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">學習與斷食有關的知識</h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 4\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">學習與斷食有關的養生之道&nbsp;</h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 5\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">完整的斷食教師及幹部培訓營</h5>\n\n\n                        </div>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">View all our features</a>\n                        </div>\n\n\n\n\n                    </div>\n\n                </div>\n            </div>\n\n\n            <div class=\"img-col col-12 md-pb col-md-12 col-lg-6 m-auto\">\n                <img src=\"@PROJECT_PATH@/assets/images/6-945x919.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features011-5r",
           "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "sjABNvSY36",
-          "_anchor": "content8-4z",
+          "_sourceTheme": "financem4",
+          "_cid": "sjILtkWWG6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "features011",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".link-wrap": {
+              "width": "100%",
+              "display": "flex",
+              "flex-direction": "column",
+              "margin-bottom": "1rem"
+            },
+            ".link": {
+              "display": "inline-block",
+              "position": "relative",
+              "width": "fit-content",
+              "padding": "0 1.4rem",
+              "&:before": {
+                "position": "absolute",
+                "left": "0px",
+                "top": "55%",
+                "transform": "translateY(-50%)",
+                "content": "\"\\e908\"",
+                "font-family": "'Moririse2' !important",
+                "color": "@primaryColor",
+                "font-size": "0.8rem"
+              }
+            },
+            ".link, .link-wrap": {
+              "color": "#555555",
+              "text-align": "left"
+            },
+            "img": {
+              "width": "100%"
+            },
+            "@media (max-width: 992px)": {
+              ".card": {
+                "margin-bottom": "2rem!important"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".link-wrap": {
+                "align-items": "center"
+              }
+            }
+          },
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\" checked>\n        <input type=\"range\" inline title=\"Links\" name=\"links\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showLink\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n\n            <div class=\"card col-12 col-md-12 col-lg-6 m-auto\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n\n\n                        <h4 class=\"card-title align-left mbr-semibold pb-3 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>活動內容</b></h4>\n                        <p class=\"mbr-text pb-2 mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap, .mbr-section-btn\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus\n                            ipsum semper, sit amet luctus turpis porttitor. Ut libero ante, varius quis ligula\n                            consectetur tortor.</p>\n\n\n                        <div class=\"link-wrap\" mbr-if=\"showLink\">\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 0\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">詳細解說斷食的原理與種類，減食、斷食與復食法&nbsp;</h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 1\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">斷食的生理學、營養學、營養素的代謝&nbsp;</h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 2\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">斷食的身心反應</h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 3\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">主要疾病在斷食期間可能產生的現象、對應之道與注意事項&nbsp;</h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 4\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">基本身心靈養生功法與心法&nbsp;</h5>\n\n                            <h5 class=\"link mbr-black mbr-fonts-style\" mbr-if=\"links > 5\" mbr-theme-style=\"display-5\" data-app-selector=\".link, .link-wrap\">更高意識的開發、upavāsa接近至上的鍛鍊</h5>\n\n\n                        </div>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">View all our features</a>\n                        </div>\n\n\n\n\n                    </div>\n\n                </div>\n            </div>\n\n\n            <div class=\"img-col col-12 md-pb col-md-12 col-lg-6 m-auto\">\n                <img src=\"@PROJECT_PATH@/assets/images/s-27394144-1080x721.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "features011-5x",
+          "_isUserblock": true,
+          "_sourceTheme": "financem4",
+          "_cid": "sjIPkmKBeP",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -17902,7 +18045,7 @@
               }
             }
           },
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>課程時間：</b><br>2021年4月29日(週四)~5月5日(週三)<br>共七天六夜。<br>4/29下午一點開始報到、5/5下午五點結束<br></li><li><b>活動內容：</b>共30小時課程、30小時相關活動<br>. 斷食的原理與種類\n<br>. 減食、斷食與復食法<br>. 斷食的生理學與營養學 <br>. 營養素的代謝<br>. 斷食的身心反應<br>. 主要疾病在斷食期間可能產生的現象 <br>. 斷食期間疾病的對應之道與注意事項 <br>. 基本身心靈養生功法與心法 <br>. 更高意識的開發 <br>. upavāsa接近至上的鍛鍊</li><li><b>活動特色：</b><br>. 依個人身心狀況規劃斷食<br><b style=\"font-size: 1.4rem;\">. 採三天有水斷或蔬果汁斷食<br></b>. 教師及幹部就近關照學員斷食期間的身心狀況 <br>. 學習與斷食有關的知識<br>. 學習與斷食有關的養生之道 <br>. 完整的斷食教師及幹部培訓營</li>\n                    <li><b>營隊地點：</b><br>桃園長庚養生村（桃園市龜山區長青路2號)。<br>桃園機場捷運線於A8長庚醫院站下車，可搭乘長庚免費接駁車或共乘計程車（約7.3公里，車程大約25~15分鐘）前往。</li>\n                    <li><b>授課教師：邱顯峰老師及本會資深教師群<br></b><br>&nbsp; &nbsp; &nbsp; &nbsp; 從1989年年初開始從事瑜伽教學，迄今已三十多年。而且在從事瑜伽教學前17年就已開始學習身心靈的鍛鍊，從不同的派別參研禪坐、靈修、氣功、養生與醫學等，並從1973年起開始教授身心靈的整體鍛鍊。至今已出版《勝王瑜伽經詳解》、《哈達瑜伽經詳解》、《王者之王瑜伽經》、《博伽梵歌靈性釋義》、《老子道德經與瑜伽心法》、《脈輪與拙火瑜伽》、《如何針對不同體質和疾病患者調配五穀飯》和《梵咒瑜伽與梵唱》等八部書。從事教學總時數已超過24000小時，累積了豐富的教學經驗，且經常受邀到大陸授課。所教授的內容可說是瑜伽最上乘的秘法，可適合各種根器的人，不論是初學者或已歷經深造過的人，邱老師都會循循善誘引導學員由淺入深，一探生命最深的奧秘。邱老師從事規律斷食已有三十多年，也舉辦過非常多的斷食營的幹部研習營，累積了非常深又廣的經驗。&nbsp;</li><li>收費方式：</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>課程時間：</b><br>2021年4月29日(週四)~5月5日(週三)<br>共七天六夜。<br>4/29下午一點開始報到、5/5下午五點結束<br></li><li><b>活動內容：</b>共30小時課程、30小時相關活動<br>. 斷食的原理與種類\n<br>. 減食、斷食與復食法<br>. 斷食的生理學與營養學 <br>. 營養素的代謝<br>. 斷食的身心反應<br>. 主要疾病在斷食期間可能產生的現象 <br>. 斷食期間疾病的<br>.&nbsp;<br>. 更高意識的開發 <br>.&nbsp;</li>\n                    <li><b style=\"font-size: 1.4rem;\">授課教師：邱顯峰老師<br></b><b><br>&nbsp; &nbsp;&nbsp;</b> 從1989年年初開始從事瑜伽教學，迄今已三十多年。而且在從事瑜伽教學前17年就已開始學習身心靈的鍛鍊，從不同的派別參研禪坐、靈修、氣功、養生與醫學等，並從1973年起開始教授身心靈的整體鍛鍊。至今已出版《勝王瑜伽經詳解》、《哈達瑜伽經詳解》、《王者之王瑜伽經》、《博伽梵歌靈性釋義》、《老子道德經與瑜伽心法》、《脈輪與拙火瑜伽》、《如何針對不同體質和疾病患者調配五穀飯》和《梵咒瑜伽與梵唱》等八部書。從事教學總時數已超過24000小時，累積了豐富的教學經驗，且經常受邀到大陸授課。所教授的內容可說是瑜伽最上乘的秘法，可適合各種根器的人，不論是初學者或已歷經深造過的人，邱老師都會循循善誘引導學員由淺入深，一探生命最深的奧秘。邱老師從事規律斷食已有三十多年，也舉辦過非常多的斷食營的幹部研習營，累積了非常深又廣的經驗。&nbsp;</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sjABNw9FJt",
@@ -17948,6 +18091,95 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sjIyGSVTeh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "features14",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@fullWidth)": {
+              ".img-wrap": {
+                "width": "100% !important",
+                "height": "100% !important"
+              }
+            },
+            ".row": {
+              "background-color": "@cardBg",
+              "& when (@reverseContent)": {
+                "-webkit-flex-direction": "row-reverse",
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".image-element": {
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "padding": "0",
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center center"
+              }
+            },
+            ".underline": {
+              ".line": {
+                "width": "2rem",
+                "height": "1px",
+                "background": "@underlineColor",
+                "display": "inline-block"
+              }
+            },
+            ".text-element": {
+              "padding": "4rem 1rem",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".mbr-text": {
+                "padding": "3rem",
+                "margin": "0"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image-element": {
+                "padding": "0 15px"
+              },
+              ".text-element": {
+                "padding": "2rem 1rem",
+                ".mbr-text": {
+                  "padding": "1rem"
+                }
+              },
+              "& when (@reverseContent)": {
+                ".row": {
+                  "-webkit-flex-direction": "column-reverse",
+                  "flex-direction": "column-reverse"
+                }
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section class=\"features14\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"100\" step=\"5\" value=\"80\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline && showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"color\" title=\"Card BG Color\" name=\"cardBg\" value=\"#ffffff\" condition=\"showTitle || showSubtitle || showText ||showButtons\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2-6.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-6 image-element\">\n                <div class=\"img-wrap\" mbr-style=\"{'width': mediaSize + '%',\n                                 'height': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/s-27394143-1140x761.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"col-md-6 text-element\" mbr-if=\"showTitle || showSubtitle || showText ||showButtons\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter align-center\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\">\n                    HOTEL LUXURY\n                </h3>\n                <div class=\"underline align-center pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>線上報名</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-lighter align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">我們將於收到您的線上報名單後主動與您聯繫，以便了解您的健康狀況，並指導您做減食或活動前的斷食。</p>\n                <div class=\"mbr-section-btn align-center\" mbr-class=\"{'pt-2': showText,\n                                 'pt-4': !showText}\" mbr-theme-style=\"display-5\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">線上報名</a></div>\n            </div>\n        </div>\n    </div>          \n</section>",
+          "_anchor": "features14-5o",
+          "_isUserblock": true,
+          "_sourceTheme": "hotelm4",
+          "_cid": "sjIFeVZXlG",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
