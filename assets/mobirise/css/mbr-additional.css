@@ -15326,8 +15326,32 @@ section.lazy-placeholder:after {
     align-self: center;
   }
 }
+.cid-sjIwpgUgEu {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-image: url("../../../assets/images/s-273941331-2000x628.jpg");
+}
+.cid-sjIwpgUgEu .mbr-section-title {
+  margin-bottom: 35px;
+}
+.cid-sjIwpgUgEu .mbr-section-title b,
+.cid-sjIwpgUgEu .mbr-section-title strong {
+  font-weight: 500;
+}
+@media (max-width: 1024px) {
+  .cid-sjIwpgUgEu .figure:before {
+    width: 89px;
+    height: 89px;
+    top: -55px;
+    left: -18px;
+  }
+}
+.cid-sjIwpgUgEu .mbr-section-title,
+.cid-sjIwpgUgEu .mbr-section-btn {
+  color: #ffffff;
+}
 .cid-sjABNvgCJ5 {
-  padding-top: 105px;
+  padding-top: 60px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
@@ -15390,6 +15414,46 @@ section.lazy-placeholder:after {
   height: 40px;
   border-radius: 50%;
   border-radius: 0;
+}
+.cid-sjIyFWSJms {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-sjIyFWSJms .underline .line {
+  width: 2rem;
+  height: 1px;
+  background: #878787;
+  display: inline-block;
+}
+.cid-sjIyFWSJms .mbr-text {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .cid-sjIyFWSJms .title {
+    width: 100% !important;
+  }
+}
+.cid-sjIyGSVTeh {
+  background: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+.cid-sjIyGSVTeh .image-block {
+  margin: auto;
+}
+.cid-sjIyGSVTeh figcaption {
+  position: relative;
+}
+.cid-sjIyGSVTeh figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-sjIyGSVTeh .image-block {
+    width: 100% !important;
+  }
 }
 .cid-sjABNwypw6 {
   padding-top: 45px;
@@ -16250,9 +16314,28 @@ section.lazy-placeholder:after {
     align-self: center;
   }
 }
+.cid-sjIy0jlS8e {
+  padding-top: 120px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-sjIy0jlS8e .underline .line {
+  width: 2rem;
+  height: 1px;
+  background: #878787;
+  display: inline-block;
+}
+.cid-sjIy0jlS8e .mbr-text {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .cid-sjIy0jlS8e .title {
+    width: 100% !important;
+  }
+}
 .cid-sjHeznqskK {
   background: #ffffff;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 .cid-sjHeznqskK .image-block {
