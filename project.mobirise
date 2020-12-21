@@ -54,7 +54,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 231,
+    "uniqCompNum": 232,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -18251,207 +18251,154 @@
           "_params": {}
         },
         {
-          "_name": "slider3",
+          "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "overflow": "hidden",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "& when (@bgColor2) and (@bg-type = 'color')": {
-              ".two__background:before": {
-                "content": "\"\"",
-                "position": "absolute",
-                "top": "0",
-                "right": "0",
-                "max-width": "49%",
-                "width": "100%",
-                "height": "100%",
-                "background-color": "@twoBgColor",
-                "z-index": "0"
-              }
-            },
-            ".carousel-inner when (@showArrows)": {
-              "margin-bottom": "70px"
-            },
-            ".slider__content": {
-              "padding-top": "52px",
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#d3045f",
-              "margin-bottom": "13px",
-              "position": "relative",
-              "z-index": "1",
-              "& when (@showFigure)": {
-                "&:after": {
-                  "content": "\"\"",
-                  "position": "absolute",
-                  "left": "-92px",
-                  "top": "147px",
-                  "width": "85px",
-                  "height": "85px",
-                  "z-index": "-1",
-                  "background-repeat": "no-repeat",
-                  "background-size": "cover",
-                  "background-image": "url(@figure)"
-                }
-              }
-            },
-            ".mbr-section-title": {
-              "margin-bottom": "33px",
-              "color": "#014188"
-            },
-            ".slider__image": {
-              "margin-left": "11.8%"
-            },
-            ".img-wrap": {
-              "max-width": "100%",
-              "img": {
-                "width": "100%",
-                "object-fit": "cover"
-              }
-            },
-            ".carousel-indicators": {
-              "display": "flex",
-              "flex-direction": "column",
-              "margin": "0",
-              "transition": "all 0.25s",
-              "height": "100%",
-              "width": "50px",
-              "left": "44.5%",
-              "right": "auto",
-              ".active": {
-                "background": "@indicatorsColor",
-                "opacity": "1",
-                "border": "none",
-                "&:before": {
-                  "content": "\"\"",
-                  "display": "block",
-                  "position": "absolute",
-                  "top": "-14px",
-                  "left": "-14px",
-                  "width": "40px",
-                  "height": "40px",
-                  "border-radius": "50%",
-                  "background-color": "inherit",
-                  "opacity": ".2"
-                }
-              },
-              "li": {
-                "width": "12px",
-                "height": "12px",
-                "border": "none",
-                "margin-bottom": "32px",
-                "box-sizing": "border-box",
-                "background-color": "@indicatorsColor",
-                "border-radius": "50%",
-                "position": "relative",
-                "opacity": ".2"
-              }
-            },
-            ".carousel-controls": {
-              "a": {
-                "border-radius": "50%",
-                "border": "2px solid @indicatorsColor",
-                "background-color": "transparent",
-                "span": {
-                  "transition": "all .3s",
-                  "color": "@indicatorsColor",
-                  "font-size": "18px"
+            "& when (@scaleImg)": {
+              ".card .card-img": {
+                "overflow": "hidden",
+                "border-radius": "0",
+                "img": {
+                  "transition": "all .5s"
                 },
                 "&:hover": {
-                  ".mobi-mbri-left": {
-                    "transform": "translateX(-5px)"
-                  },
-                  ".mobi-mbri-right": {
-                    "transform": "translateX(5px)"
+                  "img": {
+                    "-webkit-transform": "scale3d(1.1, 1.1, 1.1)",
+                    "transform": "scale3d(1.1, 1.1, 1.1)"
+                  }
+                }
+              }
+            },
+            ".media-container-column": {
+              "-webkit-justify-content": "flex-start",
+              "justify-content": "flex-start",
+              "padding": "0",
+              "flex-wrap": "nowrap"
+            },
+            ".underline": {
+              ".line": {
+                "width": "2rem",
+                "height": "1px",
+                "background": "@underlineColor",
+                "display": "inline-block"
+              }
+            },
+            ".first-card": {
+              "display": "block",
+              ".card-wrapper": {
+                "height": "100%"
+              },
+              ".card-box": {
+                "background": "@firstBg",
+                "padding": "2rem"
+              },
+              ".info-wrapper": {
+                "display": "inline-flex",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".mbr-iconfont": {
+                  "padding-right": ".5rem",
+                  "font-size": "20px"
+                },
+                ".info-text": {
+                  "display": "inline-block",
+                  "padding-right": "1rem",
+                  "margin": "0"
+                }
+              },
+              ".card-btn .btn": {
+                "margin-left": "4px !important",
+                "margin-right": "4px !important"
+              }
+            },
+            ".first-row, .second-row": {
+              "-webkit-flex": "1 1 50%",
+              "flex": "1 1 50%",
+              "margin": "0",
+              ".card .card-wrapper": {
+                "overflow": "hidden",
+                "position": "relative",
+                "display": "flex",
+                "-webkit-flex-direction": "column",
+                "flex-direction": "column",
+                "flex": "1",
+                ".card-img": {
+                  "-webkit-flex": "1 1 100%",
+                  "flex": "1 1 100%",
+                  "img": {
+                    "min-height": "100%",
+                    "object-fit": "cover",
+                    "object-position": "center center"
                   }
                 }
               },
-              ".carousel-control-next, .carousel-control-prev": {
-                "opacity": "1",
-                "width": "44px",
-                "height": "44px"
+              "@media (max-width: 767px)": {
+                "-webkit-flex-basis": "auto",
+                "flex-basis": "auto",
+                ".card .card-wrapper .card-img": {
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto",
+                  "img": {
+                    "min-height": "0"
+                  }
+                }
               },
-              ".carousel-control-next": {
-                "right": "40%",
-                "bottom": "5px",
-                "top": "auto",
-                "left": "auto"
-              },
-              ".carousel-control-prev": {
-                "right": "45%",
-                "bottom": "5px",
-                "top": "auto",
-                "left": "auto"
+              ".caption": {
+                "position": "absolute",
+                "bottom": "0",
+                "left": "0",
+                "right": "0",
+                "display": "inline-flex",
+                "-webkit-justify-content": "space-around",
+                "justify-content": "space-around",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                "letter-spacing": "2px",
+                ".price": {
+                  "background": "@priceBg",
+                  "padding": "0 .5rem"
+                }
               }
             },
-            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
-              ".image-element": {
-                "min-width": "50%"
-              },
-              ".media-container-row": {
-                "width": "100%"
+            ".first-row": {
+              "padding-bottom": "1rem"
+            },
+            ".second-row": {
+              "padding-top": "1rem"
+            },
+            "@media (max-width: 767px)": {
+              ".first-card, .first-child": {
+                "padding-bottom": "2rem"
               }
             },
             "@media (max-width: 991px)": {
-              ".two__background:before": {
-                "max-width": "90%"
+              ".first-card": {
+                "padding-bottom": "2rem"
               },
-              ".carousel-indicators": {
-                "flex-direction": "row",
-                "height": "50px",
-                "width": "100%",
-                "left": "auto",
-                "bottom": "0",
-                "right": "auto",
-                "li": {
-                  "margin": "0 16px"
-                }
-              },
-              ".slider__content": {
-                "padding-top": "0",
-                "margin-bottom": "72px"
-              },
-              ".mbr-section-subtitle": {
-                "margin-bottom": "6px",
-                "&:after": {
-                  "content": "none"
-                }
-              },
-              ".mbr-section-title": {
-                "margin-bottom": "18px"
-              },
-              ".slider__image": {
-                "margin-left": "0",
-                "margin-bottom": "100px"
-              },
-              ".img-wrap": {
-                "width": "100%"
-              },
-              ".carousel-controls": {
-                "display": "none"
-              },
-              ".carousel-inner": {
-                "margin-bottom": "0"
+              ".only-first-row": {
+                "height": "100%"
               }
             },
-            ".mbr-text": {
-              "color": "#4c4c4c"
+            ".first-card-title, .first-card-info": {
+              "color": "#0087ab"
+            },
+            ".card-title": {
+              "color": "#f9f6d0"
             }
           },
-          "_customHTML": "<section class=\"slider3 carousel slide testimonials-slider extSlider\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n\n   <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <header>Size</header>\n        <input type=\"range\" title=\"Padding Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" inline>\n        <input type=\"range\" title=\"Padding Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" inline>\n       <header>Show/Hide</header>\n       <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n       <input type=\"checkbox\" title=\"Show Figure\" name=\"showFigure\" condition=\"showSubtitle\" checked>\n        <input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/compass.svg\" condition=\"showFigure && showSubtitle\">\n       <header>Slider</header>\n        <input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"10\" step=\"1\" value=\"4\">\n       <input type=\"checkbox\" title=\"Show Indicators\" name=\"showIndicators\" checked>\n       <input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked>\n       <input type=\"color\" title=\"Arrows/Indicators Color\" name=\"indicatorsColor\" value=\"#014188\" condition=\"showArrows || showIndicators\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\">\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n       <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n        </fieldset>\n       <input type=\"checkbox\" title=\"2 BG Color\" name=\"bgColor2\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"2 Background Color\" value=\"#ffffff\" name=\"twoBgColor\" condition=\"bgColor2 && bg.type == 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"two__background\"></div>\n    <div class=\"container-fluid\">\n\n        <div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n            <div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n                <div class=\"carousel-item\">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n                            <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">ACTIVITIES</h4>\n                            <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>營隊地點~桃園長庚養生村</b></h3>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">地址：桃園市龜山區長青路2號。<br><br>特色：交通方便、環境寬敞舒適。<br>&nbsp;&nbsp;<br>自行開車\n<br>北上或南下請由中山高林口交流道下，沿文化一路往龜山方向經中正體育園區右轉振興路抵達。\n<br>\n<br>接駁車或共乘<br>桃園機場捷運線於A8長庚醫院站下車，可搭乘長庚免費接駁車或共乘計程車前往。<br><br>園區內停車：戶外停車皆免費。</p>\n                        </div>\n                        <div class=\"col-12 col-lg-7\">\n                            <div class=\"slider__image\">\n                                <div class=\"img-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/img-sportscenter1-1-xl-1078x421.jpg\" alt title>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n            <div class=\"carousel-item\">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n                            <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">ACTIVITIES</h4>\n                            <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>住宿</b></h3>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">雙人房，一房一廳，1350元/間。<br><br>住宿統一由主辦單位安排，若您有特別需求，請於報名表單中註明。</p>\n                        </div>\n                        <div class=\"col-12 col-lg-7\">\n                            <div class=\"slider__image\">\n                                <div class=\"img-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/1318946431-3943108489-600x403.jpg\" alt title>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div><div class=\"carousel-item\">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n                            <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">ACTIVITIES</h4>\n                            <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>上課場地</b></h3>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">上課位置在地下一樓籃球場地，空間寬敞。</p>\n                        </div>\n                        <div class=\"col-12 col-lg-7\">\n                            <div class=\"slider__image\">\n                                <div class=\"img-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/22414c55ca70b594833f0404r-800x532.jpg\" alt title>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div><div class=\"carousel-item\">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n                            <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">ACTIVITIES</h4>\n                            <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>戶外</b></h3>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">這是一個擁有美好大自然環境的地方。這裡讓你免費進入，連停車都不跟你收錢，讓你可以在裡面走步道、野餐、賞花。春天的時候有櫻花，夏天的時候有杜鵑花，像是個大花園。</p>\n                        </div>\n                        <div class=\"col-12 col-lg-7\">\n                            <div class=\"slider__image\">\n                                <div class=\"img-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/1584871092-c1eab19b124e3e64f4894702aa53e5dd-1304x869.jpg\" alt title>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div></div>\n            <div class=\"carousel-indicators\" mbr-if=\"showIndicators\">\n                <li data-slide-to=\"0\" class=\"active\"></li>\n                <li mbr-if=\"testimonialsSlides> 1\" data-slide-to=\"1\"></li>\n                <li mbr-if=\"testimonialsSlides> 2\" data-slide-to=\"2\"></li>\n                <li mbr-if=\"testimonialsSlides> 3\" data-slide-to=\"3\"></li>\n                <li mbr-if=\"testimonialsSlides> 4\" data-slide-to=\"4\"></li>\n                <li mbr-if=\"testimonialsSlides> 5\" data-slide-to=\"5\"></li>\n                <li mbr-if=\"testimonialsSlides> 6\" data-slide-to=\"6\"></li>\n                <li mbr-if=\"testimonialsSlides> 7\" data-slide-to=\"7\"></li>\n                <li mbr-if=\"testimonialsSlides> 8\" data-slide-to=\"8\"></li>\n                <li mbr-if=\"testimonialsSlides> 9\" data-slide-to=\"9\"></li>\n            </div>\n                \n            <div class=\"carousel-controls\" mbr-if=\"showArrows\">\n                <a data-app-prevent-settings class=\"carousel-control carousel-control-prev\" role=\"button\" data-slide=\"prev\">\n                    <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-left mobi-mbri\"></span>\n                    <span class=\"sr-only\">Previous</span>\n                </a>\n                <a data-app-prevent-settings class=\"carousel-control carousel-control-next\" role=\"button\" data-slide=\"next\">\n                    <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                    <span class=\"sr-only\">Next</span>\n                </a>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "slider3-6d",
+          "_name": "features2",
+          "_customHTML": "<section class=\"mbr-section features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showSubtitle\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline && showSubtitle\">\n        <input type=\"range\" inline title=\"Cards Count\" name=\"cardsAmount\" min=\"1\" max=\"5\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Scale Image On Hover\" name=\"scaleImg\">\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showCardTitle\" condition=\"cardsAmount > 1\" checked=\"checked\">\n        <input type=\"checkbox\" title=\"Show Price\" name=\"showPrice\" condition=\"cardsAmount > 1\">\n        <input type=\"color\" title=\"Price BG Color\" name=\"priceBg\" value=\"#c19b76\" condition=\"showPrice &amp;&amp; cardsAmount > 1\">\n\n        <header>First Card Settings</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showFirstTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Info\" name=\"showInfo\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showFirstText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"firstBg\" value=\"#ffffff\">\n        <header></header>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-2.jpg\" parallax> \n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-subtitle main-subtitle mbr-fonts-style mbr-lighter align-center\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".main-subtitle, .underline\">\n            HOTEL LUXURY\n        </h3>\n\n        <div class=\"underline align-center pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n            <div class=\"line\"></div>\n        </div>\n    \n        <h2 class=\"mbr-section-title main-title mbr-fonts-style align-center pb-5\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".main-title\"><b>活動地點</b></h2>\n        <div class=\"row justify-content-center\">\n            <div class=\"card first-card col-12\" mbr-class=\"{'col-lg-8': cardsAmount == 1,\n                             'col-lg-6': cardsAmount > 1}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/img-sportscenter1-1-xl-1078x421.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showFirstTitle || showInfo || showFirstText || showButtons\">\n                        <h2 class=\"first-card-title mbr-fonts-style\" mbr-class=\"{'pb-3': !showInfo}\" mbr-theme-style=\"display-2\" mbr-if=\"showFirstTitle\" data-app-selector=\".first-card-title, .first-card-info\">桃園長庚養生村\n                        </h2>\n                        <div class=\"first-card-info pb-3\" mbr-if=\"showInfo\">\n                            <div class=\"info-wrapper\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-user\"></span>\n                                <p class=\"mbr-text info-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" data-app-selector=\".info-text\">\n                                    1 GUEST\n                                </p>\n                                <span mbr-icon class=\"mbr-iconfont mbri-home\"></span>\n                                <p class=\"mbr-text info-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" data-app-selector=\".info-text\">\n                                    17 Ft^2\n                                </p>\n                            </div>\n                        </div>\n                        <p class=\"mbr-text first-card-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"showFirstText\" data-app-selector=\".first-card-text, .card-btn\">地址：桃園市龜山區長青路2號。\n<br>\n<br>特色：交通方便、環境寬敞舒適。\n<br>  \n<br>自行開車 \n<br>北上或南下請由中山高林口交流道下，沿文化一路往龜山方向經中正體育園區右轉振興路抵達。 \n<br>\n<br>接駁車或共乘\n<br>桃園機場捷運線於A8長庚醫院站下車，可搭乘長庚免費接駁車或共乘計程車前往。\n<br>\n<br>園區內停車：戶外停車皆免費。</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn card-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-md btn-secondary\">\n                                BOOK NOW FROM 20$\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"media-container-column col-lg-6\">\n                <div class=\"row first-row\" mbr-class=\"{'only-first-row': cardsAmount < 4}\" mbr-if=\"cardsAmount > 1\">\n                    <div class=\"card col-sm-12 col-md-6\" mbr-class=\"{'first-child': cardsAmount > 2}\" mbr-if=\"cardsAmount >= 2\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <img src=\"@PROJECT_PATH@/assets/images/1318946431-3943108489-510x343.jpg\" alt=\"Mobirise\" title>\n                            </div>\n                            <div class=\"card-box caption mbr-white\" mbr-if=\"showCardTitle || showPrice\">\n                                <p class=\"mbr-text card-title mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">室內房間</p>\n                                <p class=\"mbr-text price mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showPrice\" data-app-selector=\".price\">\n                                    FROM 30$\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card col-sm-12 col-md-6\" mbr-if=\"cardsAmount >= 3\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <img src=\"@PROJECT_PATH@/assets/images/22414c55ca70b594833f0404r-510x339.jpg\" alt=\"Mobirise\" title>\n                            </div>\n                            <div class=\"card-box caption mbr-white\" mbr-if=\"showCardTitle || showPrice\">\n                                <p class=\"mbr-text card-title mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                                    上課地點</p>\n                                <p class=\"mbr-text price mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showPrice\" data-app-selector=\".price\">\n                                    FROM 30$\n                                </p>\n                            </div>\n                        </div>\n                    </div> \n                </div>\n\n                <div class=\"row second-row\" mbr-if=\"cardsAmount > 3\">\n                    <div class=\"card col-sm-12 col-md-6\" mbr-class=\"{'first-child': cardsAmount > 4}\" mbr-if=\"cardsAmount >= 4\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <img src=\"@PROJECT_PATH@/assets/images/1584871155-926672ca96afea4ab58d4a589119203f-510x340.jpg\" alt=\"Mobirise\" title>\n                            </div>\n                            <div class=\"card-box caption mbr-white\" mbr-if=\"showCardTitle || showPrice\">\n                                <p class=\"mbr-text card-title mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">養生步道</p>\n                                <p class=\"mbr-text price mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showPrice\" data-app-selector=\".price\">\n                                    FROM 110$\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card col-sm-12 col-md-6\" mbr-if=\"cardsAmount == 5\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <img src=\"@PROJECT_PATH@/assets/images/1584870689-1ff0483dbc3ca0c6b3de29eb8419f125-510x340.jpg\" alt=\"Mobirise\" title>\n                            </div>\n                            <div class=\"card-box caption mbr-white\" mbr-if=\"showCardTitle || showPrice\">\n                                <p class=\"mbr-text card-title mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">戶外停車場</p>\n                                <p class=\"mbr-text price mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showPrice\" data-app-selector=\".price\">\n                                    FROM 90$\n                                </p>\n                            </div>\n                        </div>\n                    </div> \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "features2-6f",
           "_isUserblock": true,
-          "_sourceTheme": "voyagem4",
-          "_cid": "sjN00yxyf6",
+          "_sourceTheme": "hotelm4",
+          "_cid": "sjNiiHYr5N",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
