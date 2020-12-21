@@ -16273,9 +16273,9 @@ section.lazy-placeholder:after {
   color: #ffffff;
 }
 .cid-sjISNRQ4AJ {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
+  padding-top: 45px;
+  padding-bottom: 30px;
+  background-color: #88a27a;
 }
 .cid-sjISNRQ4AJ .underline .line {
   width: 2rem;
@@ -16290,6 +16290,9 @@ section.lazy-placeholder:after {
   .cid-sjISNRQ4AJ .title {
     width: 100% !important;
   }
+}
+.cid-sjISNRQ4AJ .mbr-section-title {
+  color: #ffffff;
 }
 .cid-sjIyGSVTeh {
   background: #ffffff;
