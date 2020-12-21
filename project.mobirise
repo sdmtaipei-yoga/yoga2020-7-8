@@ -18226,7 +18226,7 @@
             },
             ".mbr-section-sub-title": {
               "text-align": "center",
-              "color": "#656565"
+              "color": "#000000"
             }
           },
           "_name": "table1",
