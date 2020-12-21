@@ -16275,7 +16275,7 @@ section.lazy-placeholder:after {
 .cid-sjISNRQ4AJ {
   padding-top: 45px;
   padding-bottom: 30px;
-  background-color: #88a27a;
+  background-color: #ffffff;
 }
 .cid-sjISNRQ4AJ .underline .line {
   width: 2rem;
@@ -16292,7 +16292,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-sjISNRQ4AJ .mbr-section-title {
-  color: #ffffff;
+  color: #000000;
 }
 .cid-sjIyGSVTeh {
   background: #ffffff;
@@ -16318,7 +16318,7 @@ section.lazy-placeholder:after {
 .cid-sjNqrSqyv6 {
   padding-top: 45px;
   padding-bottom: 30px;
-  background-color: #f9f6d0;
+  background-color: #ffffff;
 }
 .cid-sjNqrSqyv6 .underline .line {
   width: 2rem;
@@ -16337,62 +16337,15 @@ section.lazy-placeholder:after {
 .cid-sjNqrSqyv6 .mbr-section-title {
   color: #000000;
 }
-.cid-sjMYltIuNT {
+.cid-sjNrzQWiu1 {
   padding-top: 30px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-sjMYltIuNT .mbr-text {
-  color: #9c969b;
-}
-@media (min-width: 992px) {
-  .cid-sjMYltIuNT img {
-    width: 90%;
-  }
-}
-.cid-sjMYltIuNT .social-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.cid-sjMYltIuNT .soc-item {
-  width: 20px;
-  height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0.25rem 0.3rem;
-}
-.cid-sjMYltIuNT .soc-item span {
-  font-size: 1rem;
-  color: #3d626c !important;
-  transition: all 0.3s;
-}
-.cid-sjMYltIuNT .soc-item:hover span {
-  color: #f56d0d !important;
-}
-.cid-sjMYltIuNT .items-col {
-  line-height: 2.5;
-  margin: 0;
-}
-@media (max-width: 767px) {
-  .cid-sjMYltIuNT .social-list {
-    justify-content: center;
-  }
-}
-.cid-sjMYltIuNT .items {
-  color: #ffffff;
-}
-.cid-sjMYltIuNT .mbr-text,
-.cid-sjMYltIuNT .mbr-section-btn {
-  text-align: left;
-}
-.cid-sjMYltIuNT .card-title {
-  color: #000000;
-}
 .cid-sjNiiHYr5N {
-  padding-top: 60px;
+  padding-top: 0px;
   padding-bottom: 60px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-sjNiiHYr5N .media-container-column {
   -webkit-justify-content: flex-start;
@@ -16519,7 +16472,7 @@ section.lazy-placeholder:after {
   color: #0087ab;
 }
 .cid-sjNiiHYr5N .card-title {
-  color: #f9f6d0;
+  color: #ffffff;
 }
 .cid-sjIFeVZXlG {
   padding-top: 30px;
