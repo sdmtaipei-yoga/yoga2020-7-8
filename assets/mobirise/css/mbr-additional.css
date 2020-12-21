@@ -16272,31 +16272,9 @@ section.lazy-placeholder:after {
 .cid-sjMS3Pg5Uz .card-title {
   color: #ffffff;
 }
-.cid-sjISNRQ4AJ {
-  padding-top: 45px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-sjISNRQ4AJ .underline .line {
-  width: 2rem;
-  height: 1px;
-  background: #878787;
-  display: inline-block;
-}
-.cid-sjISNRQ4AJ .mbr-text {
-  margin: 0;
-}
-@media (max-width: 767px) {
-  .cid-sjISNRQ4AJ .title {
-    width: 100% !important;
-  }
-}
-.cid-sjISNRQ4AJ .mbr-section-title {
-  color: #000000;
-}
 .cid-sjNxU5YNWy {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-sjNxU5YNWy .mbr-section-subtitle {
@@ -16340,11 +16318,12 @@ section.lazy-placeholder:after {
 .cid-sjNxU5YNWy .head-item {
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
-  background: #0a1c44;
+  background: #ff4a52;
   border-bottom: 1px solid #0a1c44;
+  text-align: left;
 }
 .cid-sjNxU5YNWy .head-item:hover {
-  background: #0a1c44;
+  background: #ff4a52;
   color: inherit;
 }
 .cid-sjNxU5YNWy .table-heads {
@@ -16362,7 +16341,7 @@ section.lazy-placeholder:after {
 .cid-sjNxU5YNWy table {
   width: 100% !important;
   margin-top: 6px;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #ff4a52;
   margin-bottom: 0;
 }
 .cid-sjNxU5YNWy table td,
@@ -16375,11 +16354,11 @@ section.lazy-placeholder:after {
   border-bottom: none;
 }
 .cid-sjNxU5YNWy table th:hover {
-  background: #e9e9e9;
-  color: #000000;
+  background: #ff4a52;
+  color: #ffffff;
 }
 .cid-sjNxU5YNWy table td {
-  border-top: 1px solid #e9e9e9;
+  border-top: 1px solid #ff4a52;
 }
 .cid-sjNxU5YNWy table.table {
   background: #ffffff;
@@ -16425,27 +16404,6 @@ section.lazy-placeholder:after {
 .cid-sjNxU5YNWy .mbr-section-sub-title {
   text-align: center;
   color: #656565;
-}
-.cid-sjIyGSVTeh {
-  background: #ffffff;
-  padding-top: 15px;
-  padding-bottom: 45px;
-}
-.cid-sjIyGSVTeh .image-block {
-  margin: auto;
-}
-.cid-sjIyGSVTeh figcaption {
-  position: relative;
-}
-.cid-sjIyGSVTeh figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-sjIyGSVTeh .image-block {
-    width: 100% !important;
-  }
 }
 .cid-sjNiiHYr5N {
   padding-top: 45px;
