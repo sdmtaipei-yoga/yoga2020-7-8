@@ -29,13 +29,13 @@
       "titlePreset": "Innovation and Discovery",
       "nameSelectPreset": "education",
       "additionalSetColors": [
+        "#b4f5b6",
         "#f6a70e",
         "#abf9ca",
         "#abf9f3",
         "#f9f3f8",
         "#f3f50c",
-        "#88a27a",
-        "#960988"
+        "#88a27a"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -54,7 +54,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 238,
+    "uniqCompNum": 241,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -18093,6 +18093,160 @@
           "_isUserblock": true,
           "_sourceTheme": "personam4",
           "_cid": "sjMS3Pg5Uz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@scaleImg)": {
+              ".card .card-img": {
+                "overflow": "hidden",
+                "border-radius": "0",
+                "img": {
+                  "transition": "all .5s"
+                },
+                "&:hover": {
+                  "img": {
+                    "-webkit-transform": "scale3d(1.1, 1.1, 1.1)",
+                    "transform": "scale3d(1.1, 1.1, 1.1)"
+                  }
+                }
+              }
+            },
+            ".media-container-column": {
+              "-webkit-justify-content": "flex-start",
+              "justify-content": "flex-start",
+              "padding": "0",
+              "flex-wrap": "nowrap"
+            },
+            ".underline": {
+              ".line": {
+                "width": "2rem",
+                "height": "1px",
+                "background": "@underlineColor",
+                "display": "inline-block"
+              }
+            },
+            ".first-card": {
+              "display": "block",
+              ".card-wrapper": {
+                "height": "100%"
+              },
+              ".card-box": {
+                "background": "@firstBg",
+                "padding": "2rem"
+              },
+              ".info-wrapper": {
+                "display": "inline-flex",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".mbr-iconfont": {
+                  "padding-right": ".5rem",
+                  "font-size": "20px"
+                },
+                ".info-text": {
+                  "display": "inline-block",
+                  "padding-right": "1rem",
+                  "margin": "0"
+                }
+              },
+              ".card-btn .btn": {
+                "margin-left": "4px !important",
+                "margin-right": "4px !important"
+              }
+            },
+            ".first-row, .second-row": {
+              "-webkit-flex": "1 1 50%",
+              "flex": "1 1 50%",
+              "margin": "0",
+              ".card .card-wrapper": {
+                "overflow": "hidden",
+                "position": "relative",
+                "display": "flex",
+                "-webkit-flex-direction": "column",
+                "flex-direction": "column",
+                "flex": "1",
+                ".card-img": {
+                  "-webkit-flex": "1 1 100%",
+                  "flex": "1 1 100%",
+                  "img": {
+                    "min-height": "100%",
+                    "object-fit": "cover",
+                    "object-position": "center center"
+                  }
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-flex-basis": "auto",
+                "flex-basis": "auto",
+                ".card .card-wrapper .card-img": {
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto",
+                  "img": {
+                    "min-height": "0"
+                  }
+                }
+              },
+              ".caption": {
+                "position": "absolute",
+                "bottom": "0",
+                "left": "0",
+                "right": "0",
+                "display": "inline-flex",
+                "-webkit-justify-content": "space-around",
+                "justify-content": "space-around",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                "letter-spacing": "2px",
+                ".price": {
+                  "background": "@priceBg",
+                  "padding": "0 .5rem"
+                }
+              }
+            },
+            ".first-row": {
+              "padding-bottom": "1rem"
+            },
+            ".second-row": {
+              "padding-top": "1rem"
+            },
+            "@media (max-width: 767px)": {
+              ".first-card, .first-child": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".first-card": {
+                "padding-bottom": "2rem"
+              },
+              ".only-first-row": {
+                "height": "100%"
+              }
+            },
+            ".first-card-title, .first-card-info": {
+              "color": "#0087ab"
+            },
+            ".card-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "features2",
+          "_customHTML": "<section class=\"mbr-section features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showSubtitle\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline && showSubtitle\">\n        <input type=\"range\" inline title=\"Cards Count\" name=\"cardsAmount\" min=\"1\" max=\"5\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Scale Image On Hover\" name=\"scaleImg\">\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showCardTitle\" condition=\"cardsAmount > 1\">\n        <input type=\"checkbox\" title=\"Show Price\" name=\"showPrice\" condition=\"cardsAmount > 1\">\n        <input type=\"color\" title=\"Price BG Color\" name=\"priceBg\" value=\"#c19b76\" condition=\"showPrice &amp;&amp; cardsAmount > 1\">\n\n        <header>First Card Settings</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showFirstTitle\">\n        <input type=\"checkbox\" title=\"Show Info\" name=\"showInfo\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showFirstText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"firstBg\" value=\"#b4f5b6\">\n        <header></header>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-2.jpg\" parallax> \n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-subtitle main-subtitle mbr-fonts-style mbr-lighter align-center\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".main-subtitle, .underline\">\n            HOTEL LUXURY\n        </h3>\n\n        <div class=\"underline align-center pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n            <div class=\"line\"></div>\n        </div>\n    \n        <h2 class=\"mbr-section-title main-title mbr-fonts-style align-center pb-5\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".main-title\"><b>活動剪影</b></h2>\n        <div class=\"row justify-content-center\">\n            <div class=\"card first-card col-12\" mbr-class=\"{'col-lg-8': cardsAmount == 1,\n                             'col-lg-6': cardsAmount > 1}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/s-27394145-1080x721.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showFirstTitle || showInfo || showFirstText || showButtons\">\n                        <h2 class=\"first-card-title mbr-fonts-style\" mbr-class=\"{'pb-3': !showInfo}\" mbr-theme-style=\"display-2\" mbr-if=\"showFirstTitle\" data-app-selector=\".first-card-title, .first-card-info\">桃園長庚養生村\n                        </h2>\n                        <div class=\"first-card-info pb-3\" mbr-if=\"showInfo\">\n                            <div class=\"info-wrapper\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-user\"></span>\n                                <p class=\"mbr-text info-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" data-app-selector=\".info-text\">\n                                    1 GUEST\n                                </p>\n                                <span mbr-icon class=\"mbr-iconfont mbri-home\"></span>\n                                <p class=\"mbr-text info-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" data-app-selector=\".info-text\">\n                                    17 Ft^2\n                                </p>\n                            </div>\n                        </div>\n                        <p class=\"mbr-text first-card-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"showFirstText\" data-app-selector=\".first-card-text, .card-btn\">地址：桃園市龜山區長青路2號。\n<br>\n<br>特色：交通方便、環境寬敞舒適。\n<br>  \n<br>自行開車 \n<br>北上或南下請由中山高林口交流道下，沿文化一路往龜山方向經中正體育園區右轉振興路抵達。 \n<br>\n<br>接駁車或共乘\n<br>桃園機場捷運線於A8長庚醫院站下車，可搭乘長庚免費接駁車或共乘計程車前往。\n<br>\n<br>園區內停車：戶外停車皆免費。</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn card-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-md btn-secondary\">\n                                BOOK NOW FROM 20$\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"media-container-column col-lg-6\">\n                <div class=\"row first-row\" mbr-class=\"{'only-first-row': cardsAmount < 4}\" mbr-if=\"cardsAmount > 1\">\n                    <div class=\"card col-sm-12 col-md-6\" mbr-class=\"{'first-child': cardsAmount > 2}\" mbr-if=\"cardsAmount >= 2\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <img src=\"@PROJECT_PATH@/assets/images/1-510x541.jpg\" alt=\"Mobirise\" title>\n                            </div>\n                            <div class=\"card-box caption mbr-white\" mbr-if=\"showCardTitle || showPrice\">\n                                <p class=\"mbr-text card-title mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">室內房間</p>\n                                <p class=\"mbr-text price mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showPrice\" data-app-selector=\".price\">\n                                    FROM 30$\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card col-sm-12 col-md-6\" mbr-if=\"cardsAmount >= 3\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <img src=\"@PROJECT_PATH@/assets/images/s-27394143-510x341.jpg\" alt=\"Mobirise\" title>\n                            </div>\n                            <div class=\"card-box caption mbr-white\" mbr-if=\"showCardTitle || showPrice\">\n                                <p class=\"mbr-text card-title mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                                    上課地點</p>\n                                <p class=\"mbr-text price mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showPrice\" data-app-selector=\".price\">\n                                    FROM 30$\n                                </p>\n                            </div>\n                        </div>\n                    </div> \n                </div>\n\n                <div class=\"row second-row\" mbr-if=\"cardsAmount > 3\">\n                    <div class=\"card col-sm-12 col-md-6\" mbr-class=\"{'first-child': cardsAmount > 4}\" mbr-if=\"cardsAmount >= 4\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <img src=\"@PROJECT_PATH@/assets/images/2-510x537.jpg\" alt=\"Mobirise\" title>\n                            </div>\n                            <div class=\"card-box caption mbr-white\" mbr-if=\"showCardTitle || showPrice\">\n                                <p class=\"mbr-text card-title mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">養生步道</p>\n                                <p class=\"mbr-text price mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showPrice\" data-app-selector=\".price\">\n                                    FROM 110$\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card col-sm-12 col-md-6\" mbr-if=\"cardsAmount == 5\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <img src=\"@PROJECT_PATH@/assets/images/5-510x489.jpg\" alt=\"Mobirise\" title>\n                            </div>\n                            <div class=\"card-box caption mbr-white\" mbr-if=\"showCardTitle || showPrice\">\n                                <p class=\"mbr-text card-title mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">戶外停車場</p>\n                                <p class=\"mbr-text price mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-4\" mbr-if=\"showPrice\" data-app-selector=\".price\">\n                                    FROM 90$\n                                </p>\n                            </div>\n                        </div>\n                    </div> \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "features2-6o",
+          "_isUserblock": true,
+          "_sourceTheme": "hotelm4",
+          "_cid": "sjRyylvnSJ",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
