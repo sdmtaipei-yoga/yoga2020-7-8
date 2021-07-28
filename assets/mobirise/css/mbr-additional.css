@@ -1311,10 +1311,93 @@ section.lazy-placeholder:after {
   text-align: center;
   color: #f5e714;
 }
-.cid-s6uGqpPl41 {
-  padding-top: 15px;
-  padding-bottom: 0px;
+.cid-sEr8GinoYU {
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-color: #ffffff;
+}
+.cid-sEr8GinoYU .line {
+  width: 35px;
+  height: 3px;
+  display: inline-block;
+  background: #ed4266;
+  transition: background 0.3s;
+  margin-bottom: 2rem;
+}
+.cid-sEr8GinoYU H2 {
+  color: #36404c;
+}
+.cid-sEr8GinoYU H3 {
+  color: #36404c;
+}
+.cid-sEr8GinoYU .mbr-text,
+.cid-sEr8GinoYU .mbr-section-btn {
+  color: #767676;
+}
+@media (max-width: 992px) {
+  .cid-sEr8GinoYU .md-pb {
+    padding-bottom: 2rem;
+  }
+}
+.cid-sEr8GinoYU img {
+  filter: invert(0.5);
+  width: auto;
+}
+.cid-sEr8DwKJSR {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-sEr8DwKJSR .nav-tabs .nav-item.open .nav-link:focus,
+.cid-sEr8DwKJSR .nav-tabs .nav-link.active:focus {
+  outline: none;
+}
+.cid-sEr8DwKJSR .nav-tabs {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: 0px solid lightgray;
+}
+.cid-sEr8DwKJSR .nav-tabs .nav-item {
+  padding: .0rem;
+}
+.cid-sEr8DwKJSR .nav-link {
+  padding: .4rem 0.8rem;
+}
+.cid-sEr8DwKJSR .nav-tabs .nav-link {
+  color: #ff4a52;
+  font-style: normal;
+  font-weight: 500;
+  transition: all .5s;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #f6c2c0;
+}
+.cid-sEr8DwKJSR .nav-tabs .nav-link:hover {
+  cursor: pointer;
+  color: #0087ab;
+  border-bottom: 2px solid #0087ab;
+}
+.cid-sEr8DwKJSR .nav-tabs .nav-link.active {
+  font-weight: 500;
+  color: #0087ab;
+  font-style: normal;
+  border-bottom: 2px solid #0087ab;
+}
+.cid-sEr8DwKJSR P {
+  color: #000000;
+}
+.cid-sEr8DwKJSR H2 {
+  color: #57468b;
+}
+@media (max-width: 576px) {
+  .cid-sEr8DwKJSR .nav-tabs {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cid-sEr8DwKJSR .mbr-text,
+  .cid-sEr8DwKJSR .nav-link {
+    text-align: center;
+  }
 }
 .cid-rzHbrk40eg {
   padding-top: 45px;
