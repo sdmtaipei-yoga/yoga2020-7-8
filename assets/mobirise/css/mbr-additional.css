@@ -1370,18 +1370,18 @@ section.lazy-placeholder:after {
   transition: all .5s;
   background: transparent;
   border: none;
-  border-bottom: 2px solid #f6c2c0;
+  border-bottom: 2px solid #ffb7bb;
 }
 .cid-sEr8DwKJSR .nav-tabs .nav-link:hover {
   cursor: pointer;
-  color: #0087ab;
-  border-bottom: 2px solid #0087ab;
+  color: #3c98b1;
+  border-bottom: 2px solid #3c98b1;
 }
 .cid-sEr8DwKJSR .nav-tabs .nav-link.active {
   font-weight: 500;
-  color: #0087ab;
+  color: #3c98b1;
   font-style: normal;
-  border-bottom: 2px solid #0087ab;
+  border-bottom: 2px solid #3c98b1;
 }
 .cid-sEr8DwKJSR P {
   color: #000000;
